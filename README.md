@@ -1,2 +1,2 @@
-# philknowles.github.io
-My Personal Github page presenting many projects I have completed.
+# pixelgear.github.io
+A Page Hosting all of my Development Projects

@@ -1,0 +1,59 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 8, C:/Users/Phil/Dropbox (Personal)/Development/pixelgear.github.io/sass/screen.scss */
+h2 {
+  color: #fff; }
+
+/* line 11, C:/Users/Phil/Dropbox (Personal)/Development/pixelgear.github.io/sass/screen.scss */
+a {
+  color: #fff; }
+  /* line 13, C:/Users/Phil/Dropbox (Personal)/Development/pixelgear.github.io/sass/screen.scss */
+  a:hover, a:active, a:focus {
+    color: #666666; }
+
+/* line 18, C:/Users/Phil/Dropbox (Personal)/Development/pixelgear.github.io/sass/screen.scss */
+.custom-panel {
+  background: #000;
+  padding: 10px;
+  color: #fff; }
+
+/* line 25, C:/Users/Phil/Dropbox (Personal)/Development/pixelgear.github.io/sass/screen.scss */
+body {
+  background: #1f1f1f; }
+
+/* line 28, C:/Users/Phil/Dropbox (Personal)/Development/pixelgear.github.io/sass/screen.scss */
+header {
+  height: 135px; }
+
+/* line 32, C:/Users/Phil/Dropbox (Personal)/Development/pixelgear.github.io/sass/screen.scss */
+.thumbnail a {
+  display: block;
+  background: #000;
+  width: 300px;
+  height: 300px; }
+
+/* line 38, C:/Users/Phil/Dropbox (Personal)/Development/pixelgear.github.io/sass/screen.scss */
+.top-bar, .top-bar-left, .top-bar ul {
+  background: #000;
+  position: relative;
+  z-index: 9999; }
+
+/* line 43, C:/Users/Phil/Dropbox (Personal)/Development/pixelgear.github.io/sass/screen.scss */
+.top-bar {
+  box-shadow: 10px 0px 5px black; }
+
+/* line 51, C:/Users/Phil/Dropbox (Personal)/Development/pixelgear.github.io/sass/screen.scss */
+.menu-text {
+  color: #fff; }
+
+/* line 55, C:/Users/Phil/Dropbox (Personal)/Development/pixelgear.github.io/sass/screen.scss */
+.btn-primary {
+  background: #000;
+  color: #fff;
+  border: 0;
+  width: 100%;
+  padding: 10px 0; }
+
+/*# sourceMappingURL=screen.css.map */
