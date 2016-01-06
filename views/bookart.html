@@ -1,0 +1,39 @@
+<div class="row" ng-init="numOfBooks = 10">
+    <div class="large-12 columns">
+        <h2>This is the Quickstart Angular Course</h2>
+        Number of Books = <input type="text" ng-model="numOfBooks"/>
+        <p style="color:#fff;">Welcome to Bookart, we have a collection of {{numOfBooks + ' Million' }} books.</p>
+    </div>
+</div>
+<hr/>
+<div class="row" ng-controller="headerController">
+    <div class="large-6 columns">
+        <h2>{{appDetails.title}}</h2>
+        <p style="color:#fff;">{{appDetails.tagline}}</p>
+    </div>
+    <div class="large-6 columns">
+        <nav class="main-nav">
+            <ul>
+                <li class="active btn"><a href="#">Books</a></li>
+                <li class="btn"><a href="#">Kart</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<div class="row" ng-controller="bookListController">
+    <div class="large-3 columns right">
+        <form class="role">
+            <input type="text" name="search" placeholder="Search"/>
+        </form>
+    </div>
+    <div class="large-12 columns callout" ng-repeat="book in books">
+        <div class="large-2 columns">
+            <img ng-src="{{book.url}}"/>
+        </div>
+        <div class="large-10 columns">
+            <p>{{ book.details}}</p>
+            <button class="btn" ng-click="addToKart(book)">Add to Kart</button>
+        </div>
+    </div>
+</div>
