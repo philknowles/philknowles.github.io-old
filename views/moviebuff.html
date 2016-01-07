@@ -1,0 +1,28 @@
+<div class="row">
+    <div class="large-4 columns left">
+        <ul>
+            <li class="button"><a href="#">Movies</a></li>
+            <li class="button"><a href="#">Cart</a></li>
+        </ul>
+    </div>
+    <div class="large-4 columns">
+        <form>
+            <input type="text" name="search" placeholder="Search movies" ng-model="searchString"/>
+        </form>
+    </div>
+</div>
+
+<div class="row panel" ng-repeat="movie in movieItem | filter:searchString">
+    <div class="large-2 columns">
+        <img ng-src="{{movie.image}}" /><br/><br/>
+        <a class="button" href="#">Buy Movie</a>
+    </div>
+    <div class="large-10 columns">
+        <h2>{{ movie.title }}</h2>
+        <p>{{ movie.year }}<br/>
+        Runtime: {{ movie.runtime }}</p>
+        <p>{{ movie.plot }}</p>
+        <p>Actors:<br/>
+        {{ movie.actors}}</p>
+    </div>
+</div>

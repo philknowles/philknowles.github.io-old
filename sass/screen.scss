@@ -5,8 +5,14 @@
 
 //@import "compass/reset";
 
-h2 {
+h2, h3, h4, h5, h6, p {
     color:#fff;
+}
+
+.panel {
+    background:#666666;
+    padding:15px;
+    border-bottom:5px solid #1f1f1f;
 }
 a { 
     color:#fff;
