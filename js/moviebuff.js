@@ -6,12 +6,31 @@ app.config(function($routeProvider) {
     })
     .when("/cart", {
         templateUrl: 'views/moviecart.html',
-//        controller: 'cartListController'
+        controller: 'cartListController'
     })
+    otherwise: {
+        redirectTo: 'views/moviebuff.html'
+    }
 });
 
-app.controller('movieListController', ['$scope', function($scope) {
-    $scope.movieItem = [
+app.factory('cartService', function() {
+    var cart = [];
+    
+    return {
+        getCart: function() {
+            return cart;
+        },
+        addToCart: function(movie) {
+            cart.push(movie);
+        },
+        buy: function(movies) {
+            alert('Movie has been added', movie.title);
+        }
+    }
+});
+
+app.factory('movieService', function() {
+    var movies = [
     {
         title: "Fast & Furious",
         year: "2009",
@@ -412,9 +431,6 @@ title: 'Act of Valor',year:'2012',rated:'R',released:'24 Feb 2012',runtime:'110 
 title: 'xXx: State of the Union',year:'2005',rated:'PG-13',released:'29 Apr 2005',runtime:'101 min',genre:'Action, Adventure, Crime',director:'Lee Tamahori',writer:'Rich Wilkes (characters), Simon Kinberg',actors:'Willem Dafoe, Samuel L. Jackson, Ice Cube, Scott Speedman',plot:'Darius Stone, a new agent in the XXX program, is sent to Washington, DC to defuse a power struggle amongst national leaders.',language:'English',country:'USA',awards:'1 nomination.',image:'http://ia.media-imdb.com/images/M/MV5BMzU0Mzc3NzU4MV5BMl5BanBnXkFtZTcwODI4NDEzMQ@@._V1_SX300.jpg',metascore:'37',imdbRating:'4.3',imdbVotes:'48,107',imdbID:'tt0329774',type:'movie',response:'True'
 },
 {
-title: 'Tuxedo',year:'1995',rated:'N/A',released:'N/A',runtime:'11 min',genre:'Short',director:'Daniel Kaufman',writer:'Daniel Kaufman',actors:'Jeffrey Kalamar, Charles Levin, Tom Dahlgren, Kathy Dehetre',plot:'N/A',language:'English',country:'USA',awards:'N/A',image:'N/A',metascore:'N/A',imdbRating:'5.8',imdbVotes:'11',imdbID:'tt0346068',type:'movie',response:'True'
-},
-{
 title: 'The Dark Knight Rises',year:'2012',rated:'PG-13',released:'20 Jul 2012',runtime:'165 min',genre:'Action, Thriller',director:'Christopher Nolan',writer:'Jonathan Nolan (screenplay), Christopher Nolan (screenplay), Christopher Nolan (story), David S. Goyer (story), Bob Kane (characters)',actors:'Christian Bale, Gary Oldman, Tom Hardy, Joseph Gordon-Levitt',plot:'Eight years after the Joker\'s reign of anarchy, the Dark Knight is forced to return from his imposed exile to save Gotham City from the brutal guerrilla terrorist Bane with the help of the enigmatic Selina.',language:'English',country:'USA, UK',awards:'Nominated for 1 BAFTA Film Award. Another 42 wins & 88 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_SX300.jpg',metascore:'78',imdbRating:'8.5',imdbVotes:'1,030,777',imdbID:'tt1345836',type:'movie',response:'True'
 },
 {
@@ -524,9 +540,6 @@ title: 'Extreme Ops',year:'2002',rated:'PG-13',released:'27 Nov 2002',runtime:'9
 title: 'Jack Ryan: Shadow Recruit',year:'2014',rated:'PG-13',released:'17 Jan 2014',runtime:'105 min',genre:'Action, Thriller',director:'Kenneth Branagh',writer:'Adam Cozad, David Koepp, Tom Clancy (based on characters created by)',actors:'Chris Pine, Keira Knightley, Kevin Costner, Kenneth Branagh',plot:'Jack Ryan, as a young covert CIA analyst, uncovers a Russian plot to crash the U.S. economy with a terrorist attack.',language:'English, Russian',country:'USA, Russia',awards:'2 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMTY2MDkxNzYwNl5BMl5BanBnXkFtZTgwOTM2MjE5MDE@._V1_SX300.jpg',metascore:'57',imdbRating:'6.2',imdbVotes:'91,022',imdbID:'tt1205537',type:'movie',response:'True'
 },
 {
-title: 'Pirates of the Caribbean',year:'2003',rated:'N/A',released:'01 Jul 2003',runtime:'N/A',genre:'Adventure, Fantasy, Horror',director:'N/A',writer:'N/A',actors:'Keira Knightley, Nat Benchley, Garrett Brawith, Arnold Chon',plot:'I don\'t know, but Keira Knightley is a narrator and she is awesome.',language:'English',country:'USA',awards:'N/A',image:'N/A',metascore:'N/A',imdbRating:'7.6',imdbVotes:'490',imdbID:'tt0368925',type:'game',response:'True'
-},
-{
 title: 'Independence Day',year:'1996',rated:'PG-13',released:'03 Jul 1996',runtime:'145 min',genre:'Action, Adventure, Sci-Fi',director:'Roland Emmerich',writer:'Dean Devlin, Roland Emmerich',actors:'Will Smith, Bill Pullman, Jeff Goldblum, Mary McDonnell',plot:'The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind\'s best weapon is the will to survive.',language:'English',country:'USA',awards:'Won 1 Oscar. Another 30 wins & 32 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMTMwODY3NzQzNF5BMl5BanBnXkFtZTcwNzUxNjc0MQ@@._V1_SX300.jpg',metascore:'59',imdbRating:'6.9',imdbVotes:'396,296',imdbID:'tt0116629',type:'movie',response:'True'
 },
 {
@@ -543,11 +556,6 @@ title: 'Snow White and the Seven Dwarfs',year:'1937',rated:'APPROVED',released:'
 },
 {
 title: 'Sweet Home Alabama',year:'2002',rated:'PG-13',released:'27 Sep 2002',runtime:'108 min',genre:'Comedy, Romance',director:'Andy Tennant',writer:'Douglas J. Eboch (story), C. Jay Cox (screenplay)',actors:'Reese Witherspoon, Josh Lucas, Patrick Dempsey, Candice Bergen',plot:'A young woman with a Southern background runs away from her husband in Alabama and reinvents herself as a New York socialite.',language:'English',country:'USA',awards:'3 wins & 6 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMjEwMjIwMDQ4OV5BMl5BanBnXkFtZTYwNzc3OTY3._V1_SX300.jpg',metascore:'45',imdbRating:'6.1',imdbVotes:'78,954',imdbID:'tt0256415',type:'movie',response:'True'
-
-
-},
-{
-title: 'The Karate Kid',year:'1987',rated:'N/A',released:'N/A',runtime:'N/A',genre:'Sport',director:'Jimmy Simeone',writer:'N/A',actors:'N/A',plot:'N/A',language:'English',country:'USA',awards:'N/A',image:'N/A',metascore:'N/A',imdbRating:'6.3',imdbVotes:'50',imdbID:'tt0186264',type:'game',response:'True'
 },
 {
 title: 'Vehicle 19',year:'2013',rated:'R',released:'07 Feb 2013',runtime:'82 min',genre:'Action, Thriller',director:'Mukunda Michael Dewil',writer:'Mukunda Michael Dewil',actors:'Paul Walker, Naima McLean, Gys de Villiers, Leyla Haidarian',plot:'In Johannesburg, an American parole breaker unknowingly picks up a rental car that will tie him to a web of corrupt local police.',language:'English',country:'USA',awards:'N/A',image:'http://ia.media-imdb.com/images/M/MV5BMTk0NDU4ODc4OF5BMl5BanBnXkFtZTcwMjIwMTU1OQ@@._V1_SX300.jpg',metascore:'29',imdbRating:'4.9',imdbVotes:'11,280',imdbID:'tt1911662',type:'movie',response:'True'
@@ -572,9 +580,6 @@ title: 'Couples Retreat',year:'2009',rated:'PG-13',released:'09 Oct 2009',runtim
 },
 {
 title: 'Pearl Harbor',year:'2001',rated:'PG-13',released:'25 May 2001',runtime:'183 min',genre:'Action, Drama, Romance',director:'Michael Bay',writer:'Randall Wallace',actors:'Ben Affleck, Josh Hartnett, Kate Beckinsale, William Lee Scott',plot:'Pearl Harbor follows the story of two best friends, Rafe and Danny, and their love lives as they go off to join the war.',language:'English, Japanese, French',country:'USA',awards:'Won 1 Oscar. Another 10 wins & 42 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMTQ3MDc0MDc1NF5BMl5BanBnXkFtZTYwODI1ODY2._V1_SX300.jpg',metascore:'44',imdbRating:'6.0',imdbVotes:'236,675',imdbID:'tt0213149',type:'movie',response:'True'
-},
-{
-title: 'A Fearless Journey: A Look at Jet Li\'s \'Fearless\'',year:'2006',rated:'N/A',released:'22 Dec 2006',runtime:'16 min',genre:'Short',director:'Stanley J. Orzel',writer:'Stanley J. Orzel',actors:'Jet Li, Beau Weaver, Ronny Yu',plot:'An in-depth conversation with superstar Jet Li on his personal philosophy and the making of his final Wuxia Film.',language:'English',country:'Hong Kong',awards:'N/A',image:'N/A',metascore:'N/A',imdbRating:'6.5',imdbVotes:'15',imdbID:'tt0940808',type:'movie',response:'True'
 },
 {
 title: 'Gladiator',year:'2000',rated:'R',released:'05 May 2000',runtime:'155 min',genre:'Action, Drama',director:'Ridley Scott',writer:'David Franzoni (story), David Franzoni (screenplay), John Logan (screenplay), William Nicholson (screenplay)',actors:'Russell Crowe, Joaquin Phoenix, Connie Nielsen, Oliver Reed',plot:'When a Roman general is betrayed and his family murdered by an emperor\'s corrupt son, he comes to Rome as a gladiator to seek revenge.',language:'English',country:'USA, UK',awards:'Won 5 Oscars. Another 52 wins & 100 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMTgwMzQzNTQ1Ml5BMl5BanBnXkFtZTgwMDY2NTYxMTE@._V1_SX300.jpg',metascore:'64',imdbRating:'8.5',imdbVotes:'894,849',imdbID:'tt0172495',type:'movie',response:'True'
@@ -606,4 +611,30 @@ title: 'Joe Somebody',year:'2001',rated:'PG',released:'21 Dec 2001',runtime:'98 
 title: 'The Goonies',year:'1985',rated:'PG',released:'07 Jun 1985',runtime:'114 min',genre:'Adventure, Comedy, Family',director:'Richard Donner',writer:'Steven Spielberg (story), Chris Columbus (screenplay)',actors:'Sean Astin, Josh Brolin, Jeff Cohen, Corey Feldman',plot:'In order to save their home from foreclosure, a group of misfits set out to find a pirate\'s ancient treasure.',language:'English, Spanish, Cantonese, Italian',country:'USA',awards:'2 wins & 6 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMTEyMzM3NDQyMjJeQTJeQWpwZ15BbWU4MDE4ODY0NjEx._V1_SX300.jpg',metascore:'60',imdbRating:'7.8',imdbVotes:'164,913',imdbID:'tt0089218',type:'movie',response:'True'
 }
     ];
-}]);
+	return {
+		getMovie: function() {
+			return movies;
+		},
+        addToCart: function(movie) {
+
+        }
+    }
+    
+});
+
+app.controller('cartListController', function($scope, cartService) {
+   $scope.cart = cartService.getCart();
+    
+    $scope.buy = function(movie) {
+        cartService.buy(movie);
+    }
+});
+
+
+app.controller('movieListController', function($scope, movieService, cartService) {
+    $scope.movieItem = movieService.getMovie();
+    
+    $scope.addToCart = function(movie) {
+        cartService.addToCart(movie);
+    }
+});

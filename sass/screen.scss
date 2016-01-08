@@ -10,7 +10,7 @@ h2, h3, h4, h5, h6, p {
 }
 
 .panel {
-    background:#666666;
+    background:#0a0a0a;
     padding:15px;
     border-bottom:5px solid #1f1f1f;
 }
@@ -81,4 +81,8 @@ header {
             color:#000;
         }
     }
+}
+
+.poster {
+    border:5px solid #1f1f1f;
 }

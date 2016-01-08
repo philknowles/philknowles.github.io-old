@@ -8,7 +8,7 @@ h2, h3, h4, h5, h6, p {
 
 /* line 12, C:/Users/phil.knowles/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 .panel {
-  background: #666666;
+  background: #0a0a0a;
   padding: 15px;
   border-bottom: 5px solid #1f1f1f; }
 
@@ -76,5 +76,9 @@ header {
   /* line 80, C:/Users/phil.knowles/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
   .main-nav li a {
     color: #000; }
+
+/* line 86, C:/Users/phil.knowles/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+.poster {
+  border: 5px solid #1f1f1f; }
 
 /*# sourceMappingURL=screen.css.map */
