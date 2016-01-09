@@ -15,7 +15,7 @@
 <div class="row panel" ng-repeat="movie in movieItem | filter:searchString">
     <div class="large-2 columns">
         <img class="poster" ng-src="{{movie.image}}" /><br/><br/>
-        <button class="button" ng-click="addToCart(movie)">Add to Cart</button>
+        <button class="button" ng-click="addToCart(movie)">Add to List</button>
     </div>
     <div class="large-10 columns">
         <h2>{{ movie.title }}</h2>
