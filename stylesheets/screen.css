@@ -2,83 +2,110 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 8, C:/Users/phil.knowles/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 8, ../sass/screen.scss */
 h2, h3, h4, h5, h6, p {
-  color: #fff; }
+  color: #fff;
+}
 
-/* line 12, C:/Users/phil.knowles/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 12, ../sass/screen.scss */
 .panel {
   background: #0a0a0a;
   padding: 15px;
-  border-bottom: 5px solid #1f1f1f; }
+  border-bottom: 5px solid #1f1f1f;
+}
 
-/* line 17, C:/Users/phil.knowles/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 17, ../sass/screen.scss */
 a {
-  color: #fff; }
-  /* line 19, C:/Users/phil.knowles/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
-  a:hover, a:active, a:focus {
-    color: #666666; }
+  color: #fff;
+}
+/* line 19, ../sass/screen.scss */
+a:hover, a:active, a:focus {
+  color: #666666;
+}
 
-/* line 24, C:/Users/phil.knowles/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 24, ../sass/screen.scss */
 .custom-panel {
   background: #000;
   padding: 10px;
-  color: #fff; }
+  color: #fff;
+}
 
-/* line 31, C:/Users/phil.knowles/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 body {
-  background: #1f1f1f; }
+  background: #1f1f1f;
+}
 
-/* line 34, C:/Users/phil.knowles/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 header {
-  height: 135px; }
+  height: 135px;
+}
 
-/* line 38, C:/Users/phil.knowles/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 38, ../sass/screen.scss */
 .thumbnail a {
   display: block;
   background: #000;
   width: 300px;
-  height: 300px; }
+  height: 300px;
+}
 
-/* line 44, C:/Users/phil.knowles/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 44, ../sass/screen.scss */
 .top-bar, .top-bar-left, .top-bar ul {
   background: #000;
   position: relative;
-  z-index: 9999; }
+  z-index: 9999;
+}
 
-/* line 49, C:/Users/phil.knowles/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 .top-bar {
-  box-shadow: 10px 0px 5px black; }
+  box-shadow: 10px 0px 5px black;
+}
 
-/* line 57, C:/Users/phil.knowles/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 .menu-text {
-  color: #fff; }
+  color: #fff;
+}
 
-/* line 61, C:/Users/phil.knowles/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 .btn-primary {
   background: #000;
   color: #fff;
   border: 0;
   width: 100%;
-  padding: 10px 0; }
+  padding: 10px 0;
+}
 
-/* line 71, C:/Users/phil.knowles/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 71, ../sass/screen.scss */
 .main-nav ul {
   list-style: none;
-  margin: 0; }
-
-/* line 75, C:/Users/phil.knowles/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+  margin: 0;
+}
+/* line 75, ../sass/screen.scss */
 .main-nav li {
   display: inline;
   background: #fff;
   border: 1px solid #000;
-  padding: 10px; }
-  /* line 80, C:/Users/phil.knowles/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
-  .main-nav li a {
-    color: #000; }
+  padding: 10px;
+}
+/* line 80, ../sass/screen.scss */
+.main-nav li a {
+  color: #000;
+}
 
-/* line 86, C:/Users/phil.knowles/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 .poster {
-  border: 5px solid #1f1f1f; }
+  border: 5px solid #1f1f1f;
+}
 
-/*# sourceMappingURL=screen.css.map */
+/* line 91, ../sass/screen.scss */
+.pagination {
+  clear: both;
+}
+/* line 93, ../sass/screen.scss */
+.pagination button {
+  display: block;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}

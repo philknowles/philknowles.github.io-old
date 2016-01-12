@@ -86,3 +86,16 @@ header {
 .poster {
     border:5px solid #1f1f1f;
 }
+
+//==============Movies====================
+.pagination {
+    clear:both;
+    button {
+        display:block;
+        width:100%;
+        background:#000;
+        color:#fff;
+        text-align:center;
+        padding:10px 0;
+    }
+}

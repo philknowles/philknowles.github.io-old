@@ -2,58 +2,95 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 8, C:/Users/Phil/Dropbox (Personal)/Development/pixelgear.github.io/sass/screen.scss */
-h2 {
+/* line 8, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+h2, h3, h4, h5, h6, p {
   color: #fff; }
 
-/* line 11, C:/Users/Phil/Dropbox (Personal)/Development/pixelgear.github.io/sass/screen.scss */
+/* line 12, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+.panel {
+  background: #0a0a0a;
+  padding: 15px;
+  border-bottom: 5px solid #1f1f1f; }
+
+/* line 17, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 a {
   color: #fff; }
-  /* line 13, C:/Users/Phil/Dropbox (Personal)/Development/pixelgear.github.io/sass/screen.scss */
+  /* line 19, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
   a:hover, a:active, a:focus {
     color: #666666; }
 
-/* line 18, C:/Users/Phil/Dropbox (Personal)/Development/pixelgear.github.io/sass/screen.scss */
+/* line 24, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 .custom-panel {
   background: #000;
   padding: 10px;
   color: #fff; }
 
-/* line 25, C:/Users/Phil/Dropbox (Personal)/Development/pixelgear.github.io/sass/screen.scss */
+/* line 31, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 body {
   background: #1f1f1f; }
 
-/* line 28, C:/Users/Phil/Dropbox (Personal)/Development/pixelgear.github.io/sass/screen.scss */
+/* line 34, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 header {
   height: 135px; }
 
-/* line 32, C:/Users/Phil/Dropbox (Personal)/Development/pixelgear.github.io/sass/screen.scss */
+/* line 38, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 .thumbnail a {
   display: block;
   background: #000;
   width: 300px;
   height: 300px; }
 
-/* line 38, C:/Users/Phil/Dropbox (Personal)/Development/pixelgear.github.io/sass/screen.scss */
+/* line 44, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 .top-bar, .top-bar-left, .top-bar ul {
   background: #000;
   position: relative;
   z-index: 9999; }
 
-/* line 43, C:/Users/Phil/Dropbox (Personal)/Development/pixelgear.github.io/sass/screen.scss */
+/* line 49, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 .top-bar {
   box-shadow: 10px 0px 5px black; }
 
-/* line 51, C:/Users/Phil/Dropbox (Personal)/Development/pixelgear.github.io/sass/screen.scss */
+/* line 57, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 .menu-text {
   color: #fff; }
 
-/* line 55, C:/Users/Phil/Dropbox (Personal)/Development/pixelgear.github.io/sass/screen.scss */
+/* line 61, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 .btn-primary {
   background: #000;
   color: #fff;
   border: 0;
   width: 100%;
   padding: 10px 0; }
+
+/* line 71, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+.main-nav ul {
+  list-style: none;
+  margin: 0; }
+
+/* line 75, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+.main-nav li {
+  display: inline;
+  background: #fff;
+  border: 1px solid #000;
+  padding: 10px; }
+  /* line 80, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+  .main-nav li a {
+    color: #000; }
+
+/* line 86, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+.poster {
+  border: 5px solid #1f1f1f; }
+
+/* line 91, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+.pagination {
+  clear: both; }
+  /* line 93, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+  .pagination button {
+    display: block;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0; }
 
 /*# sourceMappingURL=screen.css.map */

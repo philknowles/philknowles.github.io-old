@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="large-12 columns">
+    <div ng-controller="TopController">
+        <h2>Top Rated Movies</h2>
+
+            <div infinite-scroll="myPagingFunction()" infinite-scroll-distance="3">
+                <div class="medium-2 columns end" ng-repeat="movie in movieList" style="margin:0 0 15px;min-height:250px;max-height:250px;">
+                        <a id="{{movie.id}}" href="#/movie/{{movie.id}}"><img ng-src="http://image.tmdb.org/t/p/w370/{{movie.poster_path}}" /></a>
+                </div>
+            </div>
+	<div class="pagination">
+		<button ng-click="getMovieList()" ng-hide="movieList.length == 0">Get More Movies</button>
+		<p ng-show="movieList.length == 0">loading movies</p>
+	</div>
+            <!--movie-info-box ng-repeat="movie in movieList" info="movie"></movie-info-box-->
+        </div>
+    </div>
+</div>
