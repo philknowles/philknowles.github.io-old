@@ -7,8 +7,24 @@
 
 h2, h3, h4, h5, h6, p {
     color:#fff;
+    font-size:15px;
+    padding:15px 0;
 }
 
+p {
+    font-size:20px;
+    line-height:35px;
+}
+
+ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    color:#fff;
+    li {
+        font-size:15px;
+    }
+}
 .panel {
     background:#0a0a0a;
     padding:15px;
@@ -32,9 +48,16 @@ body {
     background:#1f1f1f;
 }
 header {
-    height:135px;
+//    height:135px;
 }
 
+.slider {
+    margin-top:0;
+    height:100%;
+}
+.slick-next, .slick-prev {
+    display:none !important;
+}
 .thumbnail a{
     display:block;
     background:#000;

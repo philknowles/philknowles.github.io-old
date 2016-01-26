@@ -1,4 +1,4 @@
-var app = angular.module('myApp', ['slick', 'ngRoute', 'ngResource']);
+var app = angular.module('myApp', ['slick', 'ngRoute', 'ngResource', 'embedCodepen']);
 
 app.config(function($routeProvider) {
 
@@ -12,6 +12,9 @@ app.config(function($routeProvider) {
     })
     .when('/about', {
         templateUrl: 'views/about.html'
+    })
+    .when('/codepen', {
+        templateUrl: 'views/codepen.html'
     })
     //
 });
