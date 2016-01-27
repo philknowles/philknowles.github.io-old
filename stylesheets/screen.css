@@ -55,18 +55,23 @@ body {
   background: #1f1f1f;
 }
 
-/* line 54, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
+header {
+  height: 15px;
+}
+
+/* line 55, ../sass/screen.scss */
 .slider {
   margin-top: 0;
   height: 100%;
 }
 
-/* line 58, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 .slick-next, .slick-prev {
   display: none !important;
 }
 
-/* line 61, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 .thumbnail a {
   display: block;
   background: #000;
@@ -74,24 +79,24 @@ body {
   height: 300px;
 }
 
-/* line 67, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 .top-bar, .top-bar-left, .top-bar ul {
   background: #000;
   position: relative;
   z-index: 9999;
 }
 
-/* line 72, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .top-bar {
   box-shadow: 10px 0px 5px black;
 }
 
-/* line 80, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 .menu-text {
   color: #fff;
 }
 
-/* line 84, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 .btn-primary {
   background: #000;
   color: #fff;
@@ -100,33 +105,33 @@ body {
   padding: 10px 0;
 }
 
-/* line 94, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 .main-nav ul {
   list-style: none;
   margin: 0;
 }
-/* line 98, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 .main-nav li {
   display: inline;
   background: #fff;
   border: 1px solid #000;
   padding: 10px;
 }
-/* line 103, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .main-nav li a {
   color: #000;
 }
 
-/* line 109, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 .poster {
   border: 5px solid #1f1f1f;
 }
 
-/* line 114, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 .pagination {
   clear: both;
 }
-/* line 116, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 .pagination button {
   display: block;
   width: 100%;
