@@ -43,7 +43,7 @@ app.factory('movieService', function() {
         actors: "Vin Diesel, Paul Walker, Jordana Brewster, Michelle Rodriguez",
         plot: "Brian O'Conner, now working for the FBI in LA, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation.",
         language: "English", "Country": "USA", "Awards": "4 wins & 2 nominations.",
-        image: "http://ia.media-imdb.com/images/M/MV5BMTQwNDA2MTg3Nl5BMl5BanBnXkFtZTcwNTg3MzIyMg@@._V1_SX300.jpg",
+        image: "https://image.tmdb.org/t/p/w185/ft8IqAGFs3V7i87z0t0EVRUjK1p.jpg",
         metascore: "45",
         imdbrating: "6.6",
         imdbvotes: "187,971",
@@ -53,19 +53,19 @@ app.factory('movieService', function() {
     },
 
     {
-        title: "Furious 7", year: "2015", rated: "PG-13", released: "03 Apr 2015", runtime: "137 min", genre: "Action, Crime, Thriller", director: "James Wan", writer: "Chris Morgan, Gary Scott Thompson (characters)", actors: "Vin Diesel, Paul Walker, Jason Statham, Michelle Rodriguez", plot: "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.", language: "English", "Country": "USA, Japan", "Awards": "5 wins & 5 nominations.", image: "http://ia.media-imdb.com/images/M/MV5BMTQxOTA2NDUzOV5BMl5BanBnXkFtZTgwNzY2MTMxMzE@._V1_SX300.jpg", metascore: "67", imdbrating: "7.3", imdbvotes: "232,987", imdbID: "tt2820852", type: "movie", response: "True"
+        title: "Furious 7", year: "2015", rated: "PG-13", released: "03 Apr 2015", runtime: "137 min", genre: "Action, Crime, Thriller", director: "James Wan", writer: "Chris Morgan, Gary Scott Thompson (characters)", actors: "Vin Diesel, Paul Walker, Jason Statham, Michelle Rodriguez", plot: "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.", language: "English", "Country": "USA, Japan", "Awards": "5 wins & 5 nominations.", image: "https://image.tmdb.org/t/p/w185/dCgm7efXDmiABSdWDHBDBx2jwmn.jpg", metascore: "67", imdbrating: "7.3", imdbvotes: "232,987", imdbID: "tt2820852", type: "movie", response: "True"
     },
     {
-        title: "Fast & Furious 6", year: "2013", rated: "PG-13", released: "24 May 2013", runtime: "130 min", genre: "Action, Crime, Thriller", director: "Justin Lin", writer: "Chris Morgan, Gary Scott Thompson (characters)", actors: "Vin Diesel, Paul Walker, Dwayne Johnson, Jordana Brewster", plot: "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets convoluted also facing his presumed deceased girlfriend, Letty.", language: "English, Russian, Spanish, Indonesian, Danish, Cantonese", "Country": "USA", "Awards": "8 wins & 21 nominations.", image: "http://ia.media-imdb.com/images/M/MV5BMTM3NTg2NDQzOF5BMl5BanBnXkFtZTcwNjc2NzQzOQ@@._V1_SX300.jpg", metascore: "61", imdbrating: "7.2", imdbvotes: "281,523", imdbID: "tt1905041", type: "movie", response: "True"
+        title: "Fast & Furious 6", year: "2013", rated: "PG-13", released: "24 May 2013", runtime: "130 min", genre: "Action, Crime, Thriller", director: "Justin Lin", writer: "Chris Morgan, Gary Scott Thompson (characters)", actors: "Vin Diesel, Paul Walker, Dwayne Johnson, Jordana Brewster", plot: "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets convoluted also facing his presumed deceased girlfriend, Letty.", language: "English, Russian, Spanish, Indonesian, Danish, Cantonese", "Country": "USA", "Awards": "8 wins & 21 nominations.", image: "https://image.tmdb.org/t/p/w185/b9gTJKLdSbwcQRKzmqMq3dMfRwI.jpg", metascore: "61", imdbrating: "7.2", imdbvotes: "281,523", imdbID: "tt1905041", type: "movie", response: "True"
     },
     {
-        title: "The Protector", year: "2005", rated: "R", released: "08 Sep 2006", runtime: "81 min", genre: "Action, Crime, Drama", director: "Prachya Pinkaew", writer: "Napalee, Piyaros Thongdee, Joe Wannapin, Kongdej Jaturanrasamee, Prachya Pinkaew (story)", actors: "Tony Jaa, Petchtai Wongkamlao, Bongkoj Khongmalai, Xing Jing", plot: "A young fighter named Kham must go to Australia to retrieve his stolen elephant. With the help of a Thai-born Australian detective, Kham must take on all comers, including a gang led by an evil woman and her two deadly bodyguards.", language: "Thai, English, Mandarin, Vietnamese", "Country": "Thailand, USA, Hong Kong", "Awards": "N/A", image: "http://ia.media-imdb.com/images/M/MV5BMTc2NjE0NTA5M15BMl5BanBnXkFtZTcwNTkxNDUzMQ@@._V1_SX300.jpg", metascore: "52", imdbrating: "7.1", imdbvotes: "28,857", imdbID: "tt0427954", type: "movie", response: "True"
+        title: "The Protector", year: "2005", rated: "R", released: "08 Sep 2006", runtime: "81 min", genre: "Action, Crime, Drama", director: "Prachya Pinkaew", writer: "Napalee, Piyaros Thongdee, Joe Wannapin, Kongdej Jaturanrasamee, Prachya Pinkaew (story)", actors: "Tony Jaa, Petchtai Wongkamlao, Bongkoj Khongmalai, Xing Jing", plot: "A young fighter named Kham must go to Australia to retrieve his stolen elephant. With the help of a Thai-born Australian detective, Kham must take on all comers, including a gang led by an evil woman and her two deadly bodyguards.", language: "Thai, English, Mandarin, Vietnamese", "Country": "Thailand, USA, Hong Kong", "Awards": "N/A", image: "https://image.tmdb.org/t/p/w500/pa2IOz6zLpivXUKaaiQn1kxfZW1.jpg", metascore: "52", imdbrating: "7.1", imdbvotes: "28,857", imdbID: "tt0427954", type: "movie", response: "True"
     },
     {
-        title: "Close Range", year: "2015", rated: "N/A", released: "11 Dec 2015", runtime: "80 min", genre: "Action, Crime", director: "Isaac Florentine", writer: "Chad Law, Shane Dax Taylor", actors: "Scott Adkins, Nick Chinlund, Caitlin Keats, Jake La Botz", plot: "A rogue soldier turned outlaw is thrust into a relentless fight with a corrupt sheriff, his obedient deputies, and a dangerous drug cartel in order to protect his sister and her young daughter.", language: "English", "Country": "USA", "Awards": "N/A", image: "http://ia.media-imdb.com/images/M/MV5BMjA5MzYzODk2Nl5BMl5BanBnXkFtZTgwNDM4MTY3NjE@._V1_SX300.jpg", metascore: "N/A", imdbrating: "5.3", imdbvotes: "404", imdbID: "tt3511596", type: "movie", response: "True"
+        title: "Close Range", year: "2015", rated: "N/A", released: "11 Dec 2015", runtime: "80 min", genre: "Action, Crime", director: "Isaac Florentine", writer: "Chad Law, Shane Dax Taylor", actors: "Scott Adkins, Nick Chinlund, Caitlin Keats, Jake La Botz", plot: "A rogue soldier turned outlaw is thrust into a relentless fight with a corrupt sheriff, his obedient deputies, and a dangerous drug cartel in order to protect his sister and her young daughter.", language: "English", "Country": "USA", "Awards": "N/A", image: "https://www.cinematerial.com/media/posters/sm/hl/hlqat5gg.jpg?v=1448519005", metascore: "N/A", imdbrating: "5.3", imdbvotes: "404", imdbID: "tt3511596", type: "movie", response: "True"
     },
     {
-        title: "The Hunger Games", year: "2012", rated: "PG-13", released: "23 Mar 2012", runtime: "142 min", genre: "Adventure, Drama, Sci-Fi", director: "Gary Ross", writer: "Gary Ross (screenplay), Suzanne Collins (screenplay), Billy Ray (screenplay), Suzanne Collins (novel)", actors: "Stanley Tucci, Wes Bentley, Jennifer Lawrence, Willow Shields", plot: "Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games, a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death.", language: "English", "Country": "USA", "Awards": "Nominated for 1 Golden Globe. Another 34 wins & 41 nominations.", image: "http://ia.media-imdb.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_SX300.jpg", metascore: "67", imdbrating: "7.3", imdbvotes: "653,299", imdbID: "tt1392170", type: "movie", response: "True"
+        title: "The Hunger Games", year: "2012", rated: "PG-13", released: "23 Mar 2012", runtime: "142 min", genre: "Adventure, Drama, Sci-Fi", director: "Gary Ross", writer: "Gary Ross (screenplay), Suzanne Collins (screenplay), Billy Ray (screenplay), Suzanne Collins (novel)", actors: "Stanley Tucci, Wes Bentley, Jennifer Lawrence, Willow Shields", plot: "Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games, a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death.", language: "English", "Country": "USA", "Awards": "Nominated for 1 Golden Globe. Another 34 wins & 41 nominations.", image: "https://image.tmdb.org/t/p/w185/iLJdwmzrHFjFwI5lvYAT1gcpRuA.jpg", metascore: "67", imdbrating: "7.3", imdbvotes: "653,299", imdbID: "tt1392170", type: "movie", response: "True"
     },
     {
         id: '',
@@ -82,7 +82,7 @@ app.factory('movieService', function() {
       language:'English',
       country:'USA',
       awards:'4 wins & 24 nominations.',
-      image:'http://ia.media-imdb.com/images/M/MV5BNzYyNzM2NzM2NF5BMl5BanBnXkFtZTcwNjg5NTQzMw@@._V1_SX300.jpg',
+      image:'https://image.tmdb.org/t/p/w185/wY1AsrhhymgxVruhkPtfBoLnUA3.jpg',
       metascore:'58',
       imdbRating:'6.7',
       imdbVotes:'230,548',
@@ -104,7 +104,7 @@ app.factory('movieService', function() {
       language:'English',
       country:'USA, UK, Netherlands, Lebanon, Israel, Egypt',
       awards:'6 wins.',
-      image:'http://ia.media-imdb.com/images/M/MV5BMTUyODI0NzU0MV5BMl5BanBnXkFtZTgwMDE1MjcwMTE@._V1_SX300.jpg',
+      image:'http://primer.a.ltrbxd.com/resized/film-poster/2/3/6/9/6/4/236964-patterns-of-evidence-the-exodus-0-230-0-345-crop.jpg?k=1d3a2e2664',
       metascore:'N/A',
       imdbRating:'8.1',
       imdbVotes:'271',
@@ -126,33 +126,11 @@ app.factory('movieService', function() {
       language:'English',
       country:'USA',
       awards:'N/A',
-      image:'http://ia.media-imdb.com/images/M/MV5BMTU3MjI4ODA0Ml5BMl5BanBnXkFtZTcwODAwNTcxMw@@._V1_SX300.jpg',
+      image:'https://image.tmdb.org/t/p/w185/qzl1y7y23iTYc8uJAiWFjDrk7xH.jpg',
       metascore:'N/A',
       imdbRating:'6.1',
       imdbVotes:'366',
       imdbID:'tt1225703',
-      type:'movie',
-      response:'True'
-    },
-    {
-      title: 'Child Star: The Shirley Temple Story',
-      year:'2001',
-      rated:'N/A',
-      released:'13 May 2001',
-      runtime:'95 min',
-      genre:'Biography, Drama, Family',
-      director:'Nadia Tass',
-      writer:'Shirley Temple (book), Joe Wiesenfeld (teleplay)',
-      actors:'Connie Britton, Colin Friels, Hinton Battle, Emily Hart',
-      plot:'The life, laughters, and luck of one of the most famous and beloved child stars, Shirley Temple.',
-      language:'English',
-      country:'USA, Australia',
-      awards:'2 nominations.',
-      image:'http://ia.media-imdb.com/images/M/MV5BMTUzOTg4NjQ1NF5BMl5BanBnXkFtZTcwODgzOTIyMQ@@._V1_SX300.jpg',
-      metascore:'N/A',
-      imdbRating:'6.2',
-      imdbVotes:'379',
-      imdbID:'tt0233274',
       type:'movie',
       response:'True'
     },
@@ -170,7 +148,7 @@ app.factory('movieService', function() {
       language:'English, Russian, Indonesian',
       country:'USA',
       awards:'Nominated for 4 Oscars. Another 12 wins & 33 nominations.',
-      image:'http://ia.media-imdb.com/images/M/MV5BMTc3NzA4MDIyNV5BMl5BanBnXkFtZTcwMzc1OTM2MQ@@._V1_SX300.jpg',
+      image:'https://image.tmdb.org/t/p/w185/coINnuCzcw5FMHBty8hcudMOBnO.jpg',
       metascore:'42',
       imdbRating:'6.6',
       imdbVotes:'302,256',
@@ -192,7 +170,7 @@ app.factory('movieService', function() {
       language:'English',
       country:'USA, Germany',
       awards:'Won 1 Oscar. Another 17 wins & 34 nominations.',
-      image:'http://ia.media-imdb.com/images/M/MV5BMTM2NzgzNTk2Nl5BMl5BanBnXkFtZTcwMjUxNjUyMQ@@._V1_SX300.jpg',
+      image:'https://image.tmdb.org/t/p/w185/uOWOw8ZTkGQqx6qkNPhG9AovFJW.jpg',
       metascore:'46',
       imdbRating:'6.0',
       imdbVotes:'128,299',
@@ -214,7 +192,7 @@ app.factory('movieService', function() {
         language:'English, Mandarin',
         country:'USA, Hong Kong',
         awards:'4 nominations.',
-        image:'http://ia.media-imdb.com/images/M/MV5BMTMxMTgwOTI3Nl5BMl5BanBnXkFtZTYwMTI2NDQ3._V1_SX300.jpg',
+        image:'https://image.tmdb.org/t/p/w185/g5BFUJPgv9CoGDyAX4XZFcEY36a.jpg',
         metascore:'58',
         imdbRating:'6.2',
         imdbVotes:'75,775',
@@ -236,7 +214,7 @@ app.factory('movieService', function() {
         language:'English',
         country:'USA',
         awards:'2 wins & 5 nominations.',
-        image:'http://ia.media-imdb.com/images/M/MV5BMTcxMDI5MTM4Ml5BMl5BanBnXkFtZTcwNjA4MDcyMQ@@._V1_SX300.jpg',
+        image:'http://moviefiles.alphacoders.com/279/poster-27977.jpg',
         metascore:'70',
         imdbRating:'7.3',
         imdbVotes:'43,614',
@@ -258,7 +236,7 @@ app.factory('movieService', function() {
         language:'English, Spanish',
         country:'USA',
         awards:'9 wins & 17 nominations.',
-        image:'http://ia.media-imdb.com/images/M/MV5BMTUxMzcxNzQzOF5BMl5BanBnXkFtZTcwMzQxNjUyMw@@._V1_SX300.jpg',
+        image:'https://image.tmdb.org/t/p/w185/dqs5BmwSULtB28Kls3IB6khTQwp.jpg',
         metascore:'55',
         imdbRating:'6.5',
         imdbVotes:'314,986',
@@ -280,7 +258,7 @@ app.factory('movieService', function() {
         language:'Cantonese',
         country:'Hong Kong',
         awards:'3 wins & 1 nomination.',
-        image:'http://ia.media-imdb.com/images/M/MV5BMTM4OTkwNzE0MF5BMl5BanBnXkFtZTcwNTg4NjAyMQ@@._V1_SX300.jpg',
+        image:'https://www.cinematerial.com/media/posters/sm/xq/xqyei4r7.jpg?v=1451426001',
         metascore:'74',
         imdbRating:'7.6',
         imdbVotes:'32,419',
@@ -302,7 +280,7 @@ app.factory('movieService', function() {
         language:'Cantonese, English, Mandarin, Japanese, Min Nan',
         country:'Hong Kong, Taiwan',
         awards:'2 nominations.',
-        image:'http://ia.media-imdb.com/images/M/MV5BMjE1NjMzODkxNV5BMl5BanBnXkFtZTcwMzk2NDMyMQ@@._V1_SX300.jpg',
+        image:'https://image.tmdb.org/t/p/w185/aGIMWeURQ5WHB1yeJd8RrDsmAIG.jpg',
         metascore:'N/A',
         imdbRating:'6.0',
         imdbVotes:'8,412',
@@ -324,7 +302,7 @@ app.factory('movieService', function() {
         language:'English',
         country:'Canada, USA',
         awards:'7 wins & 5 nominations.',
-        image:'http://ia.media-imdb.com/images/M/MV5BMTYxMzk5MzA3MV5BMl5BanBnXkFtZTcwMTYwMjg1Nw@@._V1_SX300.jpg',
+        image:'http://moviefiles.alphacoders.com/455/poster-45597.jpg',
         metascore:'N/A',
         imdbRating:'5.8',
         imdbVotes:'372',
@@ -346,7 +324,7 @@ app.factory('movieService', function() {
       language:'English',
       country:'USA, Germany',
       awards:'Nominated for 3 Oscars. Another 8 wins & 18 nominations.',
-      image:'http://ia.media-imdb.com/images/M/MV5BMTkzMjE4ODU0MV5BMl5BanBnXkFtZTYwNTI2OTk2._V1_SX300.jpg',
+      image:'https://image.tmdb.org/t/p/w185/yQE8Ag9t1wQHjY58rPzJX8G1iIz.jpg',
       metascore:'63',
       imdbRating:'7.1',
       imdbVotes:'195,834',
@@ -364,7 +342,7 @@ app.factory('movieService', function() {
       director:'Frank Coraci',
       writer:'Steve Koren, Mark O\'Keefe',
       actors:'Adam Sandler, Kate Beckinsale, Christopher Walken, David Hasselhoff',
-      plot:'A workaholic architect finds a universal remote that allows him to fast-forward and rewind to different parts of his life. Complications arise when the remote starts to overrule his choices.',language:'English, Portuguese, Japanese',country:'USA',awards:'Nominated for 1 Oscar. Another 3 wins & 11 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMjEyODM5MzY2N15BMl5BanBnXkFtZTcwNjcyMTIzMQ@@._V1_SX300.jpg',
+      plot:'A workaholic architect finds a universal remote that allows him to fast-forward and rewind to different parts of his life. Complications arise when the remote starts to overrule his choices.',language:'English, Portuguese, Japanese',country:'USA',awards:'Nominated for 1 Oscar. Another 3 wins & 11 nominations.',image:'https://image.tmdb.org/t/p/w185/ojmEqzJgTLo8S34uVQ6ZWmhgOoG.jpg',
       metascore:'45',
       imdbRating:'6.4',
       imdbVotes:'230,600',
@@ -386,7 +364,7 @@ app.factory('movieService', function() {
         language:'English',
         country:'USA',
         awards:'N/A',
-        image:'http://ia.media-imdb.com/images/M/MV5BMjE5MzAxMjUyMl5BMl5BanBnXkFtZTgwNDk1OTMwNDE@._V1_SX300.jpg',
+        image:'https://image.tmdb.org/t/p/w185/eteC2VMVbsjZNxAjgFh70FarsA4.jpg',
         metascore:'22',
         imdbRating:'5.7',
         imdbVotes:'3,781',
@@ -395,9 +373,9 @@ app.factory('movieService', function() {
         response:'True'
     },
     {
-    title: 'Insurgent',year:'2015',rated:'PG-13',released:'20 Mar 2015',runtime:'119 min',genre:'Adventure, Sci-Fi, Thriller',director:'Robert Schwentke',writer:'Brian Duffield (screenplay), Akiva Goldsman (screenplay), Mark Bomback (screenplay), Veronica Roth (novel)',actors:'Kate Winslet, Jai Courtney, Mekhi Phifer, Shailene Woodley',plot:'Beatrice Prior must confront her inner demons and continue her fight against a powerful alliance which threatens to tear her society apart with the help from others on her side.',language:'English',country:'USA',awards:'2 wins & 6 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMTgxOTYxMTg3OF5BMl5BanBnXkFtZTgwMDgyMzA2NDE@._V1_SX300.jpg',metascore:'42',imdbRating:'6.4',imdbVotes:'104,121',imdbID:'tt2908446',type:'movie',response:'True'
+    title: 'Insurgent',year:'2015',rated:'PG-13',released:'20 Mar 2015',runtime:'119 min',genre:'Adventure, Sci-Fi, Thriller',director:'Robert Schwentke',writer:'Brian Duffield (screenplay), Akiva Goldsman (screenplay), Mark Bomback (screenplay), Veronica Roth (novel)',actors:'Kate Winslet, Jai Courtney, Mekhi Phifer, Shailene Woodley',plot:'Beatrice Prior must confront her inner demons and continue her fight against a powerful alliance which threatens to tear her society apart with the help from others on her side.',language:'English',country:'USA',awards:'2 wins & 6 nominations.',image:'https://image.tmdb.org/t/p/w185/aBBQSC8ZECGn6Wh92gKDOakSC8p.jpg',metascore:'42',imdbRating:'6.4',imdbVotes:'104,121',imdbID:'tt2908446',type:'movie',response:'True'
     },
-    {
+/*    {
     title: 'Shrek',year:'2001',rated:'PG',released:'18 May 2001',runtime:'90 min',genre:'Animation, Adventure, Comedy',director:'Andrew Adamson, Vicky Jenson',writer:'William Steig (book), Ted Elliott (screenplay), Terry Rossio (screenplay), Joe Stillman (screenplay), Roger S.H. Schulman (screenplay), Cody Cameron (additional dialogue), Chris Miller (additional dialogue), Conrad Vernon (additional dialogue)',actors:'Mike Myers, Eddie Murphy, Cameron Diaz, John Lithgow',plot:'After his swamp is filled with magical creatures, an ogre agrees to rescue a princess for a villainous lord in order to get his land back.',language:'English',country:'USA',awards:'Won 1 Oscar. Another 35 wins & 52 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMTk2NTE1NTE0M15BMl5BanBnXkFtZTgwNjY4NTYxMTE@._V1_SX300.jpg',metascore:'84',imdbRating:'7.9',imdbVotes:'430,155',imdbID:'tt0126029',type:'movie',response:'True'
     },
     {
@@ -477,19 +455,19 @@ app.factory('movieService', function() {
     title: 'Get Smart',year:'2008',rated:'PG-13',released:'20 Jun 2008',runtime:'110 min',genre:'Action, Adventure, Comedy',director:'Peter Segal',writer:'Tom J. Astle, Matt Ember, Mel Brooks (characters), Buck Henry (characters)',actors:'Steve Carell, Anne Hathaway, Dwayne Johnson, Alan Arkin',plot:'A highly intellectual but socially awkward spy is tasked with preventing a terrorist attack from a Russian spy agency.',language:'English, Russian, Panjabi, Arabic',country:'USA',awards:'2 wins & 6 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMjAzOTM1MzE0OF5BMl5BanBnXkFtZTYwNDE0Nzc4._V1_SX300.jpg',metascore:'54',imdbRating:'6.5',imdbVotes:'160,027',imdbID:'tt0425061',type:'movie',response:'True'
     },
     {
-    title: 'The Hunger Games',year:'2012',rated:'PG-13',released:'23 Mar 2012',runtime:'142 min',genre:'Adventure, Drama, Sci-Fi',director:'Gary Ross',writer:'Gary Ross (screenplay), Suzanne Collins (screenplay), Billy Ray (screenplay), Suzanne Collins (novel)',actors:'Stanley Tucci, Wes Bentley, Jennifer Lawrence, Willow Shields',plot:'Katniss Everdeen voluntarily takes her younger sister\'s place in the Hunger Games, a televised fight to the death in which two teenagers from each of the twelve Districts of Panem are chosen at random to compete.',language:'English',country:'USA',awards:'Nominated for 1 Golden Globe. Another 33 wins & 41 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_SX300.jpg',metascore:'67',imdbRating:'7.3',imdbVotes:'647,222',imdbID:'tt1392170',type:'movie',response:'True'
-    },
-    {
     title: 'Big Momma\'s House',year:'2000',rated:'PG-13',released:'02 Jun 2000',runtime:'99 min',genre:'Action, Comedy, Crime',director:'Raja Gosnell',writer:'Darryl Quarles (story), Darryl Quarles (screenplay), Don Rhymer (screenplay)',actors:'Martin Lawrence, Nia Long, Paul Giamatti, Jascha Washington',plot:'To protect a woman (Nia Long) and her son (Jascha Washington) from a robber (Terrence Howard), a male FBI agent (Martin Lawrence) disguises as a large grandmother.',language:'English',country:'USA, Germany',awards:'1 win & 8 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMTc4NTc0NzQ0OV5BMl5BanBnXkFtZTYwNDkxMjY5._V1_SX300.jpg',metascore:'33',imdbRating:'5.0',imdbVotes:'62,559',imdbID:'tt0208003',type:'movie',response:'True'
     },
     {
     title: 'Battle Los Angeles',year:'2011',rated:'PG-13',released:'11 Mar 2011',runtime:'116 min',genre:'Action, Sci-Fi',director:'Jonathan Liebesman',writer:'Christopher Bertolini',actors:'Aaron Eckhart, Ramon Rodriguez, Will Rothhaar, Cory Hardrict',plot:'A squadron of U.S. Marines becomes the last line of defense against a global invasion.',language:'English',country:'USA',awards:'1 win & 2 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMjA2MjQ2MzMwMV5BMl5BanBnXkFtZTcwMjIwODgzNA@@._V1_SX300.jpg',metascore:'37',imdbRating:'5.8',imdbVotes:'149,804',imdbID:'tt1217613',type:'movie',response:'True'
+    },*/
+    {
+    title: 'The Bourne Legacy',year:'2012',rated:'PG-13',released:'10 Aug 2012',runtime:'135 min',genre:'Action, Adventure, Mystery',director:'Tony Gilroy',writer:'Tony Gilroy (screenplay), Dan Gilroy (screenplay), Tony Gilroy (story)',actors:'Jeremy Renner, Scott Glenn, Stacy Keach, Edward Norton',plot:'An expansion of the universe from Robert Ludlum\'s novels, centered on a new hero whose stakes have been triggered by the events of the previous three films.',language:'English, Russian, Filipino',country:'Japan, USA',awards:'1 win & 11 nominations.',image:'http://ap1.alchetron.com/cdn/The-Bourne-Legacy-film-images-2343b279-f847-42e3-a29f-949842c67bf.jpg?op=OPEN',metascore:'61',imdbRating:'6.7',imdbVotes:'211,738',imdbID:'tt1194173',type:'movie',response:'True'
     },
     {
-    title: 'The Bourne Legacy',year:'2012',rated:'PG-13',released:'10 Aug 2012',runtime:'135 min',genre:'Action, Adventure, Mystery',director:'Tony Gilroy',writer:'Tony Gilroy (screenplay), Dan Gilroy (screenplay), Tony Gilroy (story)',actors:'Jeremy Renner, Scott Glenn, Stacy Keach, Edward Norton',plot:'An expansion of the universe from Robert Ludlum\'s novels, centered on a new hero whose stakes have been triggered by the events of the previous three films.',language:'English, Russian, Filipino',country:'Japan, USA',awards:'1 win & 11 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMTc4Njk3MDM1Nl5BMl5BanBnXkFtZTcwODgyOTMxOA@@._V1_SX300.jpg',metascore:'61',imdbRating:'6.7',imdbVotes:'211,738',imdbID:'tt1194173',type:'movie',response:'True'
-    },
-    {
-    title: 'Mission: Impossible - Ghost Protocol',year:'2011',rated:'PG-13',released:'21 Dec 2011',runtime:'133 min',genre:'Action, Adventure, Thriller',director:'Brad Bird',writer:'Josh Appelbaum, André Nemec, Bruce Geller (television series \'Mission: Impossible\')',actors:'Tom Cruise, Paula Patton, Simon Pegg, Jeremy Renner',plot:'The IMF is shut down when it\'s implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization\'s name.',language:'English, Russian, French, Arabic, Swedish',country:'USA, United Arab Emirates, Czech Republic',awards:'5 wins & 31 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMTY4MTUxMjQ5OV5BMl5BanBnXkFtZTcwNTUyMzg5Ng@@._V1_SX300.jpg',metascore:'73',imdbRating:'7.4',imdbVotes:'338,778',imdbID:'tt1229238',type:'movie',response:'True'
+    title: 'The Fast and the Furious',year:'2001',rated:'PG-13',released:'22 Jun 2001',runtime:'106 min',genre:'Action, Crime, Thriller',director:'Rob Cohen',writer:'Ken Li (magazine article \'Racer X\'), Gary Scott Thompson (screen story), Gary Scott Thompson (screenplay), Erik Bergquist (screenplay), David Ayer (screenplay)',actors:'Paul Walker, Vin Diesel, Michelle Rodriguez, Jordana Brewster',plot:'Los Angeles police officer Brian O\'Connor must decide where his loyalties really lie when he becomes enamored with the street racing world he has been sent undercover to destroy.',language:'English',country:'USA, Germany',awards:'9 wins & 12 nominations.',image:'https://image.tmdb.org/t/p/w185/x4So4OkqnjfOSBCCNd5uosMmQiB.jpg',metascore:'58',imdbRating:'6.7',imdbVotes:'250,562',imdbID:'tt0232500',type:'movie',response:'True'
+    }
+//    {
+/*    title: 'Mission: Impossible - Ghost Protocol',year:'2011',rated:'PG-13',released:'21 Dec 2011',runtime:'133 min',genre:'Action, Adventure, Thriller',director:'Brad Bird',writer:'Josh Appelbaum, André Nemec, Bruce Geller (television series \'Mission: Impossible\')',actors:'Tom Cruise, Paula Patton, Simon Pegg, Jeremy Renner',plot:'The IMF is shut down when it\'s implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization\'s name.',language:'English, Russian, French, Arabic, Swedish',country:'USA, United Arab Emirates, Czech Republic',awards:'5 wins & 31 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMTY4MTUxMjQ5OV5BMl5BanBnXkFtZTcwNTUyMzg5Ng@@._V1_SX300.jpg',metascore:'73',imdbRating:'7.4',imdbVotes:'338,778',imdbID:'tt1229238',type:'movie',response:'True'
     },
     {
 
@@ -548,7 +526,7 @@ app.factory('movieService', function() {
     title: 'Here Comes the Boom',year:'2012',rated:'PG',released:'12 Oct 2012',runtime:'105 min',genre:'Action, Comedy, Sport',director:'Frank Coraci',writer:'Allan Loeb, Kevin James',actors:'Kevin James, Salma Hayek, Henry Winkler, Greg Germann',plot:'A high school biology teacher looks to become a successful mixed-martial arts fighter in an effort to raise money to prevent extra-curricular activities from being axed at his cash-strapped school.',language:'English, Dutch',country:'USA',awards:'3 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMTUxMzEzNDQ0Nl5BMl5BanBnXkFtZTcwMDI2NTY1OA@@._V1_SX300.jpg',metascore:'40',imdbRating:'6.5',imdbVotes:'70,431',imdbID:'tt1648179',type:'movie',response:'True'
     },
     {
-    title: 'The Fast and the Furious: Tokyo Drift',year:'2006',rated:'PG-13',released:'16 Jun 2006',runtime:'104 min',genre:'Action, Crime, Drama',director:'Justin Lin',writer:'Chris Morgan',actors:'Lucas Black, Damien Marzette, Trula M. Marcus, Zachery Ty Bryan',plot:'A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America.',language:'English, Japanese',country:'USA',awards:'4 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMTQ2NTMxODEyNV5BMl5BanBnXkFtZTcwMDgxMjA0MQ@@._V1_SX300.jpg',metascore:'46',imdbRating:'6.0',imdbVotes:'161,776',imdbID:'tt0463985',type:'movie',response:'True'
+    title: 'The Fast and the Furious: Tokyo Drift',year:'2006',rated:'PG-13',released:'16 Jun 2006',runtime:'104 min',genre:'Action, Crime, Drama',director:'Justin Lin',writer:'Chris Morgan',actors:'Lucas Black, Damien Marzette, Trula M. Marcus, Zachery Ty Bryan',plot:'A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America.',language:'English, Japanese',country:'USA',awards:'4 nominations.',image:'http://moviefiles.alphacoders.com/124/poster-1240.jpg',metascore:'46',imdbRating:'6.0',imdbVotes:'161,776',imdbID:'tt0463985',type:'movie',response:'True'
     },
     {
     title: 'Extreme Ops',year:'2002',rated:'PG-13',released:'27 Nov 2002',runtime:'93 min',genre:'Action, Adventure, Thriller',director:'Christian Duguay',writer:'Timothy Scott Bogart (story), Mark Mullin (story), Michael Zaidan (screenplay)',actors:'Devon Sawa, Bridgette Wilson-Sampras, Rupert Graves, Rufus Sewell',plot:'While filming a advertisment, some extreme sports enthusiasts unwittingly stop a group of terrorists.',language:'English, German, Japanese, Serbo-Croatian',country:'UK, Germany, Luxembourg',awards:'1 nomination.',image:'http://ia.media-imdb.com/images/M/MV5BMTg2NTkzMTgzOF5BMl5BanBnXkFtZTYwMzYwMDg5._V1_SX300.jpg',metascore:'17',imdbRating:'4.4',imdbVotes:'4,739',imdbID:'tt0283160',type:'movie',response:'True'
@@ -589,11 +567,8 @@ app.factory('movieService', function() {
     },
     {
     title: 'Fast & Furious',year:'2009',rated:'PG-13',released:'03 Apr 2009',runtime:'107 min',genre:'Action, Crime, Drama',director:'Justin Lin',writer:'Chris Morgan, Gary Scott Thompson (characters)',actors:'Vin Diesel, Paul Walker, Jordana Brewster, Michelle Rodriguez',plot:'Brian O\'Conner, now working for the FBI in LA, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation.',language:'English',country:'USA',awards:'4 wins & 2 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMTQwNDA2MTg3Nl5BMl5BanBnXkFtZTcwNTg3MzIyMg@@._V1_SX300.jpg',metascore:'45',imdbRating:'6.6',imdbVotes:'186,122',imdbID:'tt1013752',type:'movie',response:'True'
-    },
-    {
-    title: 'The Fast and the Furious',year:'2001',rated:'PG-13',released:'22 Jun 2001',runtime:'106 min',genre:'Action, Crime, Thriller',director:'Rob Cohen',writer:'Ken Li (magazine article \'Racer X\'), Gary Scott Thompson (screen story), Gary Scott Thompson (screenplay), Erik Bergquist (screenplay), David Ayer (screenplay)',actors:'Paul Walker, Vin Diesel, Michelle Rodriguez, Jordana Brewster',plot:'Los Angeles police officer Brian O\'Connor must decide where his loyalties really lie when he becomes enamored with the street racing world he has been sent undercover to destroy.',language:'English',country:'USA, Germany',awards:'9 wins & 12 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMjAwNTQ0Nzc2M15BMl5BanBnXkFtZTcwNTk1MDIwNA@@._V1_SX300.jpg',metascore:'58',imdbRating:'6.7',imdbVotes:'250,562',imdbID:'tt0232500',type:'movie',response:'True'
-    },
-    {
+    },*/
+/*    {
     title: 'Couples Retreat',year:'2009',rated:'PG-13',released:'09 Oct 2009',runtime:'113 min',genre:'Comedy',director:'Peter Billingsley',writer:'Jon Favreau, Vince Vaughn, Dana Fox',actors:'Vince Vaughn, Jason Bateman, Faizon Love, Jon Favreau',plot:'A comedy centered around four couples who settle into a tropical-island resort for a vacation. While one of the couples is there to work on the marriage, the others fail to realize that participation in the resort\'s therapy sessions is not optional.',language:'English',country:'USA',awards:'1 win & 4 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMTQxMjI1Nzc0M15BMl5BanBnXkFtZTcwMTc0Mzg2Mg@@._V1_SX300.jpg',metascore:'23',imdbRating:'5.5',imdbVotes:'79,241',imdbID:'tt1078940',type:'movie',response:'True'
 
     },
@@ -628,7 +603,7 @@ app.factory('movieService', function() {
     },
     {
     title: 'The Goonies',year:'1985',rated:'PG',released:'07 Jun 1985',runtime:'114 min',genre:'Adventure, Comedy, Family',director:'Richard Donner',writer:'Steven Spielberg (story), Chris Columbus (screenplay)',actors:'Sean Astin, Josh Brolin, Jeff Cohen, Corey Feldman',plot:'In order to save their home from foreclosure, a group of misfits set out to find a pirate\'s ancient treasure.',language:'English, Spanish, Cantonese, Italian',country:'USA',awards:'2 wins & 6 nominations.',image:'http://ia.media-imdb.com/images/M/MV5BMTEyMzM3NDQyMjJeQTJeQWpwZ15BbWU4MDE4ODY0NjEx._V1_SX300.jpg',metascore:'60',imdbRating:'7.8',imdbVotes:'164,913',imdbID:'tt0089218',type:'movie',response:'True'
-    }
+    }*/
 ];
 	return {
 		getMovie: function() {
