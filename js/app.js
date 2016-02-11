@@ -16,6 +16,12 @@ app.config(function($routeProvider) {
     .when('/codepen', {
         templateUrl: 'views/codepen.html'
     })
+    .when('/portfolio', {
+        templateUrl: 'views/portfolio.html'
+    })
+    .when('/stop-watch', {
+        templateUrl: 'views/stop-watch.html'
+    })
     //
 });
 

@@ -5,7 +5,7 @@
 
 //@import "compass/reset";
 
-h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p {
     color:#fff;
     font-size:15px;
     padding:15px 0;
@@ -28,7 +28,6 @@ ul {
 .panel {
     background:#0a0a0a;
     padding:15px;
-    border-bottom:5px solid #1f1f1f;
 }
 a { 
     color:#fff;
@@ -45,7 +44,7 @@ a {
 }
 
 body {
-    background:#1f1f1f;
+    background:#1a1a1a;
 }
 header {
 //    height:135px;
@@ -66,12 +65,12 @@ header {
     height:300px;
 }
 .top-bar, .top-bar-left, .top-bar ul {
-    background:#000;
+    background:#212121;
     position:relative;
     z-index:9999;
 }
 .top-bar {
-    box-shadow: 10px 0px 5px black;
+    padding:20px 0;
 }
 
 .top-bar-left {
@@ -122,4 +121,19 @@ header {
         text-align:center;
         padding:10px 0;
     }
+}
+
+//==============StopWatch====================
+#start, #stop {
+    border:0;
+    background:#000;
+    color:#fff;
+    padding:15px;
+    width:10%;
+    text-transform:uppercase;
+}
+#stopwatch { 
+color:#fff;
+font-family: 'Michroma', sans-serif;
+font-size:90px;
 }
