@@ -31,6 +31,7 @@ app.controller('MovieController', ['$scope', '$http',
     var apiKey = '968cca12b1a8492036b1e1e05af57e3f';
     var popularMoviesEndpoint = "https://api.themoviedb.org/3/movie/popular";
     var page = 0;
+    var selectedMovie = 'http://image.tmdb.org/t/p/w370/';
 
       $scope.movieList = [];
 
@@ -38,6 +39,7 @@ app.controller('MovieController', ['$scope', '$http',
       $scope.getMovieList = function () {
 
         var url = popularMoviesEndpoint + '?page=' + ++page + '&api_key=' + apiKey + "&append_to-response=releases,trailers"; // generating the url
+          console.log(url);
           
         $http({method: 'GET', url: url}).
           success(function (data, status, headers, config) {
@@ -57,6 +59,10 @@ app.controller('MovieController', ['$scope', '$http',
 
       $scope.getMovieList();    // calling the function when script is loaded for the first time
 
+        $scope.getDetail = function(movie) {
+            console.log('selectedMovie', selectedMovie + movie.poster_path);
+            $scope.selectedMovie = selectedMovie + movie.poster_path;
+        };    
     }]
 );
 

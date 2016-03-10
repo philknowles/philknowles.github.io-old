@@ -5,15 +5,44 @@
 
 //@import "compass/reset";
 
-h1, h2, h3, h4, h5, h6, p {
+h2, h3, h4, h5, h6 {
     color:#fff;
-    font-size:15px;
+    font-size:26px;
     padding:15px 0;
+    font-family: 'Michroma', sans-serif;
+}
+
+h2.tagline {
+    background:#303538;
+    text-align:center;
+    margin:0; padding:15px 0;
+    font-family: 'Michroma', sans-serif;
+    @media only screen and (min-width:500px) {
+        background:none;
+        text-align:left;
+        position:absolute;
+        top:40%;
+        padding-left:10%;
+        z-index:9999;
+        color:#000;
+        font-family: 'Michroma', sans-serif;
+        font-size:35px;
+        width:55%;
+    }        
+}
+
+h1 {
+    color:#fff;
+    font-size:30px;
+    font-family: 'Michroma', sans-serif;
+    padding:15px 0 0;
 }
 
 p {
-    font-size:15px;
-    line-height:20px;
+    color:#fff;
+    font-size:26px;
+    line-height:38px;
+    padding:15px 0;
 }
 
 ul {
@@ -44,16 +73,24 @@ a {
 }
 
 body {
-    background:#1a1a1a;
+    background:#d3d3d3;
 }
 header {
 //    height:135px;
-    margin-bottom:15px;
+    margin-bottom:0;
 }
 
+.skyline {
+    background:#000;
+    img {
+        opacity:.2;
+    }
+}
 .slider {
     margin-top:0;
     height:100%;
+    max-height:300px;
+    background:none;
 }
 .slick-next, .slick-prev {
     display:none !important;
@@ -65,12 +102,14 @@ header {
     height:300px;
 }
 .top-bar, .top-bar-left, .top-bar ul {
-    background:#212121;
+    background:#000;
     position:relative;
     z-index:9999;
 }
 .top-bar {
     padding:20px 0;
+    position:fixed;
+    width:100%;
 }
 
 .top-bar-left {
@@ -79,6 +118,8 @@ header {
 
 .menu-text {
     color:#fff;
+    font-family: 'Lobster', cursive;;
+    font-size:20px;
 }
 
 .btn-primary {
@@ -89,6 +130,14 @@ header {
     padding:10px 0;
 }
 
+.intro {
+    background-color:#fff;
+    width:100%;
+    padding:10% 0;
+    h1, p {
+        color:#303538;
+    }
+}
 //===============BookKart=================
 .main-nav {
     ul {
@@ -136,4 +185,36 @@ header {
 color:#fff;
 font-family: 'Michroma', sans-serif;
 font-size:90px;
+}
+
+.projects {
+    background:#000;
+    .row {
+        max-width: 70rem;
+        margin:0 auto;
+    }
+}
+.accolades {
+    background:#383b3d;
+    padding:15px 0;
+    margin:0 auto;
+    text-align:center;
+    display:block;
+    .column {
+        width:10%;
+        margin-right:10%;
+    }
+}
+footer {
+    background:#191b1c;
+    color:#fff;
+    text-align:center;
+    padding:15px 0;
+    font-family: 'Michroma', sans-serif;
+    a {
+        padding-left:20px;
+    }
+    img {
+        width:5%;
+    }
 }

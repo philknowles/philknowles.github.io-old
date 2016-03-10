@@ -22,6 +22,21 @@ app.config(function($routeProvider) {
     .when('/stop-watch', {
         templateUrl: 'views/stop-watch.html'
     })
+    .when('/clock', {
+        templateUrl: 'views/clock.html'
+    })
+    .when('/draggable-balls', {
+        templateUrl: 'views/draggable-balls.html'
+    })
+    .when('/web-tools', {
+        templateUrl: 'views/web-tools.html'
+    })
+    .when('/angular', {
+        templateUrl: 'views/angular.html'
+    })
+    .when('/web-dev', {
+        templateUrl: 'views/web-dev.html'
+    })
     //
 });
 

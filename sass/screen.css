@@ -3,83 +3,127 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 8, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
-h1, h2, h3, h4, h5, h6, p {
+h2, h3, h4, h5, h6 {
   color: #fff;
-  font-size: 15px;
+  font-size: 26px;
+  padding: 15px 0;
+  font-family: 'Michroma', sans-serif; }
+
+/* line 15, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+h2.tagline {
+  background: #303538;
+  text-align: center;
+  margin: 0;
+  padding: 15px 0;
+  font-family: 'Michroma', sans-serif; }
+  @media only screen and (min-width: 500px) {
+    /* line 15, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+    h2.tagline {
+      background: none;
+      text-align: left;
+      position: absolute;
+      top: 40%;
+      padding-left: 10%;
+      z-index: 9999;
+      color: #000;
+      font-family: 'Michroma', sans-serif;
+      font-size: 35px;
+      width: 55%; } }
+
+/* line 34, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+h1 {
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Michroma', sans-serif;
+  padding: 15px 0 0; }
+
+/* line 41, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+p {
+  color: #fff;
+  font-size: 26px;
+  line-height: 38px;
   padding: 15px 0; }
 
-/* line 14, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
-p {
-  font-size: 15px;
-  line-height: 20px; }
-
-/* line 19, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 48, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
   color: #fff; }
-  /* line 24, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+  /* line 53, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
   ul li {
     font-size: 15px; }
 
-/* line 28, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 57, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 .panel {
   background: #0a0a0a;
   padding: 15px; }
 
-/* line 32, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 61, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 a {
   color: #fff; }
-  /* line 34, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+  /* line 63, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
   a:hover, a:active, a:focus {
     color: #666666; }
 
-/* line 39, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 68, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 .custom-panel {
   background: #000;
   padding: 10px;
   color: #fff; }
 
-/* line 46, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 75, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 body {
-  background: #1a1a1a; }
+  background: #d3d3d3; }
 
-/* line 49, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 78, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 header {
-  margin-bottom: 15px; }
+  margin-bottom: 0; }
 
-/* line 54, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 83, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+.skyline {
+  background: #000; }
+  /* line 85, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+  .skyline img {
+    opacity: .2; }
+
+/* line 89, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 .slider {
   margin-top: 0;
-  height: 100%; }
+  height: 100%;
+  max-height: 300px;
+  background: none; }
 
-/* line 58, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 95, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 .slick-next, .slick-prev {
   display: none !important; }
 
-/* line 61, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 98, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 .thumbnail a {
   display: block;
   background: #000;
   width: 300px;
   height: 300px; }
 
-/* line 67, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 104, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 .top-bar, .top-bar-left, .top-bar ul {
-  background: #212121;
+  background: #000;
   position: relative;
   z-index: 9999; }
 
-/* line 72, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 109, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 .top-bar {
-  padding: 20px 0; }
+  padding: 20px 0;
+  position: fixed;
+  width: 100%; }
 
-/* line 80, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 119, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 .menu-text {
-  color: #fff; }
+  color: #fff;
+  font-family: 'Lobster', cursive;
+  font-size: 20px; }
 
-/* line 84, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 125, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 .btn-primary {
   background: #000;
   color: #fff;
@@ -87,29 +131,38 @@ header {
   width: 100%;
   padding: 10px 0; }
 
-/* line 94, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 133, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+.intro {
+  background-color: #fff;
+  width: 100%;
+  padding: 10% 0; }
+  /* line 137, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+  .intro h1, .intro p {
+    color: #303538; }
+
+/* line 143, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 .main-nav ul {
   list-style: none;
   margin: 0; }
 
-/* line 98, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 147, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 .main-nav li {
   display: inline;
   background: #fff;
   border: 1px solid #000;
   padding: 10px; }
-  /* line 103, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+  /* line 152, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
   .main-nav li a {
     color: #000; }
 
-/* line 109, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 158, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 .poster {
   border: 5px solid #1f1f1f; }
 
-/* line 114, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+/* line 163, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
 .pagination {
   clear: both; }
-  /* line 116, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+  /* line 165, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
   .pagination button {
     display: block;
     width: 100%;
@@ -117,5 +170,54 @@ header {
     color: #fff;
     text-align: center;
     padding: 10px 0; }
+
+/* line 176, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+#start, #stop {
+  border: 0;
+  background: #000;
+  color: #fff;
+  padding: 15px;
+  width: 10%;
+  text-transform: uppercase; }
+
+/* line 184, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+#stopwatch {
+  color: #fff;
+  font-family: 'Michroma', sans-serif;
+  font-size: 90px; }
+
+/* line 190, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+.projects {
+  background: #000; }
+  /* line 192, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+  .projects .row {
+    max-width: 70rem;
+    margin: 0 auto; }
+
+/* line 197, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+.accolades {
+  background: #383b3d;
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+  display: block; }
+  /* line 203, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+  .accolades .column {
+    width: 10%;
+    margin-right: 10%; }
+
+/* line 208, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+footer {
+  background: #191b1c;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-family: 'Michroma', sans-serif; }
+  /* line 214, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+  footer a {
+    padding-left: 20px; }
+  /* line 217, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/screen.scss */
+  footer img {
+    width: 5%; }
 
 /*# sourceMappingURL=screen.css.map */
