@@ -14,18 +14,19 @@ h2, h3, h4, h5, h6 {
 
 h2.tagline {
     background:#303538;
+    color:#fff;
     text-align:center;
-    margin:0; padding:15px 0;
+    margin:0 auto; padding:15px 0;
     font-family: 'Michroma', sans-serif;
     @media only screen and (min-width:500px) {
         background:none;
-        text-align:left;
-        position:absolute;
+        text-align:center;
         top:40%;
-        padding-left:10%;
         z-index:9999;
-        color:#000;
+        color:#fff;
+        text-shadow: 1px 1px 15px #000;
         font-family: 'Michroma', sans-serif;
+        font-weight:900;
         font-size:35px;
         width:55%;
     }        
@@ -81,7 +82,13 @@ header {
 }
 
 .skyline {
-    background:#000;
+    background:url(../images/minneapolis-1117362_1920.jpg) 100% 100% no-repeat;
+    background-size:cover;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    padding:20.5% 0 20%;
+    height:100%;
+    overflow:hidden;
     img {
         opacity:.2;
     }
@@ -133,7 +140,7 @@ header {
 .intro {
     background-color:#fff;
     width:100%;
-    padding:10% 0;
+    padding:5% 0;
     h1, p {
         color:#303538;
     }
@@ -189,6 +196,7 @@ font-size:90px;
 
 .projects {
     background:#000;
+    margin-bottom:125px;
     .row {
         max-width: 70rem;
         margin:0 auto;
