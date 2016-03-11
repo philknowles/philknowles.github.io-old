@@ -56,8 +56,12 @@ ul {
     }
 }
 .panel {
-    background:#0a0a0a;
+    background:#fff;
+    color:#000;
     padding:15px;
+    h3 {
+        color:#000;
+    }
 }
 a { 
     color:#fff;
@@ -70,6 +74,9 @@ a {
     background:#000;
     padding:10px;
     color:#fff;
+    a {
+        color:#fff !important;
+    }
     
 }
 
@@ -142,6 +149,15 @@ header {
     padding:5% 0;
     h1, p, h2 {
         color:#303538;
+    }
+}
+
+.content {
+    padding:5% 0 10%;
+    background:#fff;
+    color:#000;
+    h1, h2, p, ul, li, a {
+        color:#000;
     }
 }
 //===============BookKart=================
@@ -272,3 +288,4 @@ footer {
         width:5%;
     }
 }
+
