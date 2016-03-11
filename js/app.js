@@ -1,4 +1,4 @@
-var app = angular.module('myApp', ['slick', 'ngRoute', 'ngResource', 'embedCodepen'/*, 'mm.foundation'*/]);
+var app = angular.module('myApp', ['slick', 'ngRoute', 'ngResource', 'embedCodepen']);
 
 app.config(function($routeProvider) {
 
@@ -40,31 +40,3 @@ app.config(function($routeProvider) {
     //
 });
 
-//Progress Bar Controller
-/*app.controller('progressController', '$scope', function($scope) {
-     $scope.max = 200;
-    
-    $scope.random = function() {
-        var value = Math.floor((Math.random() * 100) + 1);
-        var type;
-        
-        if (value < 25) {
-            type = 'entry level';
-        } else if (value < 50) {
-            type = 'intermediate level';
-        } else if (value < 75) {
-            type = 'advanced';
-        } else if (value < 100) {
-            type = 'master';
-        } else {
-            type = 'no skill';
-        }
-
-        $scope.showWarning = (type === 'alert' || type === 'warning');
-
-            $scope.dynamic = value;
-            $scope.type = type;
-          };
-          $scope.random();
-    }
-});*/
