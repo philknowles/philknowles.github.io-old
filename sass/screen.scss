@@ -329,21 +329,22 @@ progress[value]::-webkit-progress-value::before {
 //==============Footer Elements===============
 .projects {
     background:#000;
-    margin-bottom:125px;
+    margin-bottom:0;
     .row {
         max-width: 70rem;
         margin:0 auto;
     }
 }
+
 .accolades {
-    background:#383b3d;
+    background:#fff;
     padding:15px 0;
     margin:0 auto;
+    margin-bottom:70px;
     text-align:center;
     display:block;
-    .column {
-        width:10%;
-        margin-right:10%;
+    div {
+        padding-right:1.5%;
     }
 }
 footer {
