@@ -7,7 +7,7 @@
 <link href='https://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-<link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+<link rel="stylesheet" href="stylesheets/foundation.min.css">
 <link rel="stylesheet" href="stylesheets/slide.min.css">
 <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css">
 <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css">
@@ -15,17 +15,15 @@
 <!--link href='http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet' type='text/css'-->
 <script src="js/angular.min.js"></script> 
 </head>
-<body >
+<body>
  
 <header>
-<div class="top-bar">
-    <div class="top-bar-left">
-        <ul class="menu">
-            <li class="menu-text">Phil Knowles</li>
+  <!--nav class="top-bar" data-topbar>
+        <ul class="title-area">
+            <li class="name">Phil Knowles</li>
         </ul>
-    </div>
-    <div class="top-bar-right">
-        <ul class="menu">
+    <section class="top-bar-section">
+        <ul class="right">
             <li><a href="#/home">Home</a></li>
             <li><a href="#/about">About</a></li>
             <li><a href="#/portfolio">Portfolio</a></li>
@@ -33,10 +31,26 @@
             <li><a href="#/contact"></a></li>
             <!--li><a href="" target="_blank">Facebook</a></li>
             <li><a href="" target="_blank">Twitter</a></li>
-            <li><a href="https://www.linkedin.com/in/phil-knowles-5a188611?authType=OPENLINK&authToken=BdLg&locale=en_US&srchid=409855451454728254276&srchindex=1&srchtotal=104&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A409855451454728254276%2CVSRPtargetId%3A40985545%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3AOPENLINK" target="_blank">LinkedIn</a></li-->
         </ul>
+    </section>
+</nav-->
+    <div class="header-wrap">
+        <div class="logo">
+            <ul class="title-area">
+                <li class="name">Phil Knowles</li>
+            </ul>
+        </div>
+        <a href="#" id="menu" class="menu"></a>
+        <nav class="primary-nav">
+            <ul>
+                <li><a href="#/home">Home</a></li>
+                <li><a href="#/about">About</a></li>
+                <li><a href="#/portfolio">Portfolio</a></li>
+                <li><a href="#/web-tools">Web Tools</a></li>
+                <li><a href="#/contact">Contact</a></li>
+            </ul>
+        </nav>
     </div>
-</div>
 </header>
     
     <div ng-view></div>
@@ -57,17 +71,16 @@
         </div>
     </div>
 </div-->
-<footer style="position:fixed;bottom:0;width:100%;">
+<footer>
     Contact me on <a href="https://www.linkedin.com/in/phil-knowles-5a188611" target="_blank"><img src="images/linkedin.png" alt="" /></a>
 </footer>
-
+       
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
 <script>
       $(document).foundation();
-    </script>
-<!--script src="bower_components/angular-foundation/mm-foundation.js"></script--> 
+</script>
 <script src="bower_components/slick-carousel/slick/slick.js"></script>
 <script src="bower_components/angular-slick/dist/slick.js"></script>    
 <script src="bower_components/angular-embed-codepen/dist/embed-codepen.min.js"></script>    
@@ -79,5 +92,11 @@
 <script src="js/moviebuff.js"></script>
 <script src="js/stopwatch.js"></script>
 <script src="js/about.js"></script>
+<script>
+    var menu = document.getElementById('menu');
+    var nav = document.getElementsByClassName('primary-nav');
+    
+    
+</script>    
 </body>
 </html>
