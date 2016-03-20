@@ -37,6 +37,12 @@ app.config(function($routeProvider) {
     .when('/web-dev', {
         templateUrl: 'views/web-dev.html'
     })
+    .when('/website-f4c', {
+        templateUrl: 'views/website-f4c.html'
+    })
+    .when('/website-r3', {
+        templateUrl: 'views/website-r3.html'
+    })
     //
 });
 

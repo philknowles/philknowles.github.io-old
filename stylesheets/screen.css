@@ -404,7 +404,6 @@ progress[value]::-webkit-progress-value::before {
 
 /* line 350, ../sass/screen.scss */
 footer {
-  position: fixed;
   bottom: 0;
   width: 100%;
   background: #191b1c;
