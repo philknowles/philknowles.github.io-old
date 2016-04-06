@@ -147,7 +147,7 @@ header {
     }
 }
 
-a.menu {
+/*a.menu {
   background: linear-gradient(to bottom, #fff 0%, #fff 20%, transparent 20%, transparent 40%, #fff 40%, #fff 60%, transparent 60%, transparent 80%, #fff 80%, #fff 100%);
   cursor:pointer;
   display:block;
@@ -163,10 +163,10 @@ a.menu {
     @media only screen and (min-width:600px) {
         display:none;
     }
-}
+}*/
 
 .primary-nav {
-    @media only screen and (min-width: 670px) {
+    @media only screen and (min-width: 320px) {
         padding:5px 3% 0 0;
     }
 }
@@ -174,7 +174,7 @@ a.menu {
 .primary-nav ul {
 //    display:none;
     padding-top:15px;
-    @media only screen and (min-width: 670px) {
+    @media only screen and (min-width: 320px) {
         display:flex;
         padding-top:0;
     }
@@ -184,7 +184,7 @@ a.menu {
     padding:10px 0;
     border-top:1px solid #666666;
     border-bottom:1px solid #000;
-    @media only screen and (min-width: 670px) {
+    @media only screen and (min-width: 320px) {
         padding-right:50px;
         text-align:left;
         padding:0 10px;
