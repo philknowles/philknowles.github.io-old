@@ -1,0 +1,300 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+//@import "compass/reset";
+
+// ==========================================
+// Global Styles
+// ==========================================
+$font-oswald: 'Oswald', sans-serif;
+$font-arial: 'Arial', Helvetica, sans-serif;
+//colors
+$orange: #ffc000;
+$white: #fff;
+$gray: #121212;
+$black: #000;
+$light-gray: #242424;
+
+//Convert PX to EM
+$browser-context: 16; // Default
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em
+}
+
+body {
+    font-size:16px;
+    background:#121212;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:$font-oswald;
+    text-transform:uppercase;
+    font-size:em(25);
+    text-align:center;
+}
+
+h1 {
+    color:$orange;
+}
+
+h2, p {
+    color:$white;
+}
+
+p {
+    max-width:954px;
+    margin:0 auto;
+    padding:53px 0 36px;
+    font-family:$font-arial;
+    font-weight:bold;
+    font-size:em(18);
+    line-height:em(30);
+    text-align:center;
+    width:93.75%;
+    @media only screen and (min-width: 768px) {
+        font-sizet:em(18);
+        text-align:left;
+        width:100%;
+    }    
+}
+ul {
+    max-width:986px;
+    list-style:none;
+    margin:0 auto;
+    padding:0;
+}
+li {
+    display:inline;
+    padding-right:5px;
+}
+
+a {
+    
+    &:hover, &:focus, &:active {
+        svg {
+            fill:#fff;
+        }
+    }
+}
+
+svg {
+    fill:#404040;
+}
+
+// ==========================================
+// Header Layout
+// ==========================================
+
+.social-cta, .main-nav {
+    background:#000;
+    border-bottom:1px solid #272727;
+    overflow:auto;
+    ul {
+        float:right;
+    }
+}
+
+.social-cta {
+    padding:10px 0 6px;
+}
+
+
+.cta {
+    float:right;
+    color:#404040;
+    svg {
+        width:25px;
+        height:25px;
+        fill:#404040;
+    }
+    span {
+        display:none;
+    }
+    @media only screen and (min-width:768px) {
+        svg {
+            display:none;
+        }
+        span {
+            display:block;
+        }
+    }    
+}
+
+.logo {
+    position:absolute;
+    left:0;
+    width:auto;
+    background:#000;
+    padding:9px 0 0 10px;
+    font-family:$font-oswald;
+    text-transform:uppercase;
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+//    height:111px;
+    a {
+        color:#fff;
+    }
+    @media only screen and (min-width: 768px) {
+        left:82px;
+        width:223px;
+        padding:46px 0 43px;
+        font-size:30px;
+        border-left:1px solid #272727;
+        border-right:1px solid #272727;
+    }
+}
+
+.main-nav {
+    padding:25px 0 32px;
+    ul {
+        float:none;
+        width:100%;
+        text-align:right;
+    }
+    li {
+        margin-left:4%;
+    }
+    a {
+        color:$orange;
+        text-transform:uppercase;
+        font-family:$font-oswald;
+    }
+    @media only screen and (min-width:768px) {
+        ul {
+            float:right;
+        }
+        li {
+            margin-left:30px;
+        }
+    }
+}
+.hero-shot {
+    img {
+        width:100%;
+    }
+}
+
+.cta {
+    font-family:$font-oswald;
+}
+
+// ==========================================
+// Content Layout
+// ==========================================
+.content-home, .content-work {
+    background: $black;
+    padding:em(52) 0 0;
+}
+
+.content-experience, .content-contact{
+    padding:52px 0 109px;
+        ul {
+            text-align:center;
+        }
+        li {
+            padding-left:15px;
+        }
+        img {
+            padding-bottom:20px;
+        }
+}
+
+.slider {
+    margin:0 auto;
+    padding:61px 0 71px 5%;
+    div {
+        margin-right:10px;
+    }
+    img {
+        border:10px solid $light-gray;
+    }
+    @media only screen and (min-width: 480px) {
+        padding-left:0;
+    }
+}
+.slick-track {
+    margin:0 auto;
+}
+
+.slick-prev {
+    left:0;
+}
+.slick-next {
+    right:0;
+}
+
+.slick-prev, .slick-next {
+    background:#000;
+    border-radius:50%;
+    z-index:9999;
+}
+
+.slick-prev:before {
+    content: "\25c0";
+}
+.slick-next:before {
+    content: "\25BA";
+}
+
+form {
+    padding:50px 0 0;
+    overflow:auto;
+    input, textarea, select {
+        background:$light-gray;
+        color:#7d7d7d;
+        text-transform:uppercase;
+        border:0;
+        font-family:$font-oswald;
+        font-weight:bold;
+    }
+    textarea {
+        height:150px;
+    }
+    input[type=text] {
+        float:left;
+        background-color:$light-gray;
+        color:$white;
+        border:0;
+        font-family:$font-oswald;
+        font-weight:bold;
+    }
+    input[type=submit] {
+        background-color:$black;
+        color:$orange;
+        width:100%;
+        padding:15px;
+    }
+}
+
+.footer-page {
+    background:$black;
+    display:flex;
+    justify-content: space-between;
+    padding:39px 0 44px;
+    overflow:auto;
+    ul {
+        margin:0;
+    }
+    .cta {
+    }
+}
+
+.footer-social {
+    display:block;
+    float:left;
+}
+.footer-cta {
+    display:block;
+    float:right;
+}
+
+//Google Map
+#map {
+    margin:0 auto;
+    width:100%;
+    height:450px;
+}
