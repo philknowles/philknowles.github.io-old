@@ -259,41 +259,58 @@ svg {
 }
 
 /* line 243, ../sass/portfolio.scss */
+.resume {
+  text-align: center;
+  border: 1px solid #ffc000;
+  border-radius: 50px;
+  width: 100%;
+  max-width: 500px;
+  color: #ffc000;
+  margin: 0 auto 60px;
+  padding: 15px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 256, ../sass/portfolio.scss */
 form {
   padding: 50px 0 0;
   overflow: auto;
 }
-/* line 246, ../sass/portfolio.scss */
+/* line 259, ../sass/portfolio.scss */
 form input, form textarea, form select {
-  background: #242424;
+  background: #000;
   color: #7d7d7d;
   text-transform: uppercase;
-  border: 0;
+  border: 1px solid #242424;
   font-family: "Oswald", sans-serif;
   font-weight: bold;
+  padding: 35px;
 }
-/* line 254, ../sass/portfolio.scss */
+/* line 268, ../sass/portfolio.scss */
 form textarea {
   height: 150px;
 }
-/* line 257, ../sass/portfolio.scss */
+/* line 271, ../sass/portfolio.scss */
 form input[type=text] {
   float: left;
-  background-color: #242424;
+  background-color: #000;
   color: #fff;
   border: 0;
   font-family: "Oswald", sans-serif;
   font-weight: bold;
+  padding: 35px;
+  border: 1px solid #242424;
 }
-/* line 265, ../sass/portfolio.scss */
+/* line 281, ../sass/portfolio.scss */
 form input[type=submit] {
   background-color: #000;
   color: #ffc000;
   width: 100%;
-  padding: 15px;
+  padding: 35px;
 }
 
-/* line 273, ../sass/portfolio.scss */
+/* line 289, ../sass/portfolio.scss */
 .footer-page {
   background: #000;
   display: flex;
@@ -301,24 +318,24 @@ form input[type=submit] {
   padding: 39px 0 44px;
   overflow: auto;
 }
-/* line 279, ../sass/portfolio.scss */
+/* line 295, ../sass/portfolio.scss */
 .footer-page ul {
   margin: 0;
 }
 
-/* line 286, ../sass/portfolio.scss */
+/* line 302, ../sass/portfolio.scss */
 .footer-social {
   display: block;
   float: left;
 }
 
-/* line 290, ../sass/portfolio.scss */
+/* line 306, ../sass/portfolio.scss */
 .footer-cta {
   display: block;
   float: right;
 }
 
-/* line 296, ../sass/portfolio.scss */
+/* line 312, ../sass/portfolio.scss */
 #map {
   margin: 0 auto;
   width: 100%;

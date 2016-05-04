@@ -210,57 +210,73 @@ svg {
   content: "\25BA"; }
 
 /* line 243, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/portfolio.scss */
+.resume {
+  text-align: center;
+  border: 1px solid #ffc000;
+  border-radius: 50px;
+  width: 100%;
+  max-width: 500px;
+  color: #ffc000;
+  margin: 0 auto 60px;
+  padding: 15px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase; }
+
+/* line 256, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/portfolio.scss */
 form {
   padding: 50px 0 0;
   overflow: auto; }
-  /* line 246, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/portfolio.scss */
+  /* line 259, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/portfolio.scss */
   form input, form textarea, form select {
-    background: #242424;
+    background: #000;
     color: #7d7d7d;
     text-transform: uppercase;
-    border: 0;
+    border: 1px solid #242424;
     font-family: "Oswald", sans-serif;
-    font-weight: bold; }
-  /* line 254, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/portfolio.scss */
+    font-weight: bold;
+    padding: 35px; }
+  /* line 268, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/portfolio.scss */
   form textarea {
     height: 150px; }
-  /* line 257, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/portfolio.scss */
+  /* line 271, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/portfolio.scss */
   form input[type=text] {
     float: left;
-    background-color: #242424;
+    background-color: #000;
     color: #fff;
     border: 0;
     font-family: "Oswald", sans-serif;
-    font-weight: bold; }
-  /* line 265, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/portfolio.scss */
+    font-weight: bold;
+    padding: 35px;
+    border: 1px solid #242424; }
+  /* line 281, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/portfolio.scss */
   form input[type=submit] {
     background-color: #000;
     color: #ffc000;
     width: 100%;
-    padding: 15px; }
+    padding: 35px; }
 
-/* line 273, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/portfolio.scss */
+/* line 289, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/portfolio.scss */
 .footer-page {
   background: #000;
   display: flex;
   justify-content: space-between;
   padding: 39px 0 44px;
   overflow: auto; }
-  /* line 279, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/portfolio.scss */
+  /* line 295, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/portfolio.scss */
   .footer-page ul {
     margin: 0; }
 
-/* line 286, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/portfolio.scss */
+/* line 302, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/portfolio.scss */
 .footer-social {
   display: block;
   float: left; }
 
-/* line 290, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/portfolio.scss */
+/* line 306, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/portfolio.scss */
 .footer-cta {
   display: block;
   float: right; }
 
-/* line 296, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/portfolio.scss */
+/* line 312, C:/Users/Phil/Dropbox (Personal)/Development/philknowles.github.io/sass/portfolio.scss */
 #map {
   margin: 0 auto;
   width: 100%;

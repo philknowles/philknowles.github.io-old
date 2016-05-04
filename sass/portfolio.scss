@@ -240,33 +240,49 @@ svg {
     content: "\25BA";
 }
 
+.resume {
+    text-align:center;
+    border:1px solid $orange;
+    border-radius:50px;
+    width:100%;
+    max-width:500px;
+    color:$orange;
+    margin:0 auto 60px;
+    padding:15px;
+    font-family:$font-oswald;
+    text-transform:uppercase;
+}
+
 form {
     padding:50px 0 0;
     overflow:auto;
     input, textarea, select {
-        background:$light-gray;
+        background:$black;
         color:#7d7d7d;
         text-transform:uppercase;
-        border:0;
+        border:1px solid $light-gray;
         font-family:$font-oswald;
         font-weight:bold;
+        padding:35px;
     }
     textarea {
         height:150px;
     }
     input[type=text] {
         float:left;
-        background-color:$light-gray;
+        background-color:$black;
         color:$white;
         border:0;
         font-family:$font-oswald;
         font-weight:bold;
+        padding:35px;
+        border:1px solid $light-gray;
     }
     input[type=submit] {
         background-color:$black;
         color:$orange;
         width:100%;
-        padding:15px;
+        padding:35px;
     }
 }
 
