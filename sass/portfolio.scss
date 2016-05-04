@@ -251,6 +251,13 @@ svg {
     padding:15px;
     font-family:$font-oswald;
     text-transform:uppercase;
+    cursor:pointer;
+}
+
+.content-resume {
+    display:none;
+    color:#fff;
+    margin:0 auto 60px;
 }
 
 form {

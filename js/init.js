@@ -1,3 +1,8 @@
+//Resume
+$('.resume').click(function() {
+   $('.content-resume').slideToggle(); 
+});
+
 $('.responsive').slick({
   dots: true,
   infinite: false,

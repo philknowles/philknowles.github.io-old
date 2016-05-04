@@ -270,14 +270,22 @@ svg {
   padding: 15px;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
-/* line 256, ../sass/portfolio.scss */
+/* line 257, ../sass/portfolio.scss */
+.content-resume {
+  display: none;
+  color: #fff;
+  margin: 0 auto 60px;
+}
+
+/* line 263, ../sass/portfolio.scss */
 form {
   padding: 50px 0 0;
   overflow: auto;
 }
-/* line 259, ../sass/portfolio.scss */
+/* line 266, ../sass/portfolio.scss */
 form input, form textarea, form select {
   background: #000;
   color: #7d7d7d;
@@ -287,11 +295,11 @@ form input, form textarea, form select {
   font-weight: bold;
   padding: 35px;
 }
-/* line 268, ../sass/portfolio.scss */
+/* line 275, ../sass/portfolio.scss */
 form textarea {
   height: 150px;
 }
-/* line 271, ../sass/portfolio.scss */
+/* line 278, ../sass/portfolio.scss */
 form input[type=text] {
   float: left;
   background-color: #000;
@@ -302,7 +310,7 @@ form input[type=text] {
   padding: 35px;
   border: 1px solid #242424;
 }
-/* line 281, ../sass/portfolio.scss */
+/* line 288, ../sass/portfolio.scss */
 form input[type=submit] {
   background-color: #000;
   color: #ffc000;
@@ -310,7 +318,7 @@ form input[type=submit] {
   padding: 35px;
 }
 
-/* line 289, ../sass/portfolio.scss */
+/* line 296, ../sass/portfolio.scss */
 .footer-page {
   background: #000;
   display: flex;
@@ -318,24 +326,24 @@ form input[type=submit] {
   padding: 39px 0 44px;
   overflow: auto;
 }
-/* line 295, ../sass/portfolio.scss */
+/* line 302, ../sass/portfolio.scss */
 .footer-page ul {
   margin: 0;
 }
 
-/* line 302, ../sass/portfolio.scss */
+/* line 309, ../sass/portfolio.scss */
 .footer-social {
   display: block;
   float: left;
 }
 
-/* line 306, ../sass/portfolio.scss */
+/* line 313, ../sass/portfolio.scss */
 .footer-cta {
   display: block;
   float: right;
 }
 
-/* line 312, ../sass/portfolio.scss */
+/* line 319, ../sass/portfolio.scss */
 #map {
   margin: 0 auto;
   width: 100%;
