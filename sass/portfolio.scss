@@ -134,6 +134,17 @@ svg {
     font-size:20px;
     font-weight:bold;
     text-align:center;
+    &.active {
+        position: fixed;
+        z-index: 9999;
+        top: 0px;
+        padding: 0px;
+        border-left: 0px none;
+        border-right: 0px none;
+        font-size: 20px;
+        left: 20px;
+        top: 12px;
+    }
 //    height:111px;
     a {
         color:#fff;
@@ -145,12 +156,51 @@ svg {
         font-size:30px;
         border-left:1px solid #272727;
         border-right:1px solid #272727;
+        &.active {
+            position: fixed;
+            z-index: 9999;
+            top: 0px;
+            padding: 0px;
+            border-left: 0px none;
+            border-right: 0px none;
+            font-size: 25px;
+            left: 0px;
+            top: 7px;
+        }
     }
 }
 
 .main-nav {
     padding:25px 0 32px;
+    .hamburger {
+        display:none;
+    }    
+    &.active {
+        position: fixed;
+        z-index:9998;
+        width: 100%;
+        min-height:52px;
+        top: 0px;
+        font-size: 12px;
+        padding: 10px;
+        .hamburger {
+            display:block;
+            color:$white;
+            float:right;
+            cursor:pointer;
+        }    
+        .hamburger:before {
+            content: "\2630";
+            font-size:25px;
+        }
+        ul {
+            display:none;
+            margin-top:45px;
+            text-align:center;
+        }
+    }
     ul {
+        display:block;
         float:none;
         width:100%;
         text-align:right;
@@ -164,7 +214,19 @@ svg {
         font-family:$font-oswald;
     }
     @media only screen and (min-width:768px) {
+        &.active {
+            .hamburger {
+                display:none;
+            }
+            ul {
+                display:block;
+                float:right;
+                margin-top:8px;
+                text-align:right;
+            }
+        }
         ul {
+            display:block;
             float:right;
         }
         li {
@@ -172,6 +234,7 @@ svg {
         }
     }
 }
+
 .hero-shot {
     img {
         width:100%;
@@ -306,13 +369,16 @@ form {
     }
 }
 
-.footer-social {
+.copyright {
     display:block;
     float:left;
+    width:50%;
+     color:$white;
 }
 .footer-cta {
     display:block;
     float:right;
+    width:50%;
 }
 
 //Google Map

@@ -1,3 +1,31 @@
+// Navigation
+$(document).scroll(function () {
+    var y = $(this).scrollTop();
+    if (y > 134) {
+        $('.main-nav, .logo').addClass('active');
+    } else {
+        $('.main-nav, .logo').removeClass('active');
+    }
+});
+
+//Hamburger Menu 
+$('.hamburger').click(function () {
+    $('.main-nav ul').animate({
+        left: "+=50",
+        height: "toggle"
+    }, 500, function () {
+    });
+});
+
+//Smooth Scrolling
+$('.main-nav a, .logo a').click(function () {
+    $('html, body').animate({
+        scrollTop: $($(this).attr('href')).offset().top
+    }, 500);
+    return false;
+});
+
+
 //Resume
 $('.resume').click(function() {
    $('.content-resume').slideToggle(); 
