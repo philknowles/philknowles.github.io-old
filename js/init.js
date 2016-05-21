@@ -1,3 +1,6 @@
+//Slider Hover
+
+
 // Navigation
 $(document).scroll(function () {
     var y = $(this).scrollTop();
@@ -79,14 +82,15 @@ var locations = [
         center: new google.maps.LatLng(44.9753855, -93.2762284),
         zoom: 10
     });
-    var iconBase = 'http://furtaev.ru/preview/map_pointer_2.png';
+    var iconBase = '/images/mapicon.png';
     var infowindow = new google.maps.InfoWindow();
     var marker, i;
 
     for (i = 0; i < locations.length; i++) {
       marker = new google.maps.Marker({
         position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-        map: map
+        map: map,
+        icon: iconBase
       });
 
       google.maps.event.addListener(marker, 'click', (function(marker, i) {
