@@ -80,7 +80,8 @@ var locations = [
     var mapDiv = document.getElementById('map');
     var map = new google.maps.Map(mapDiv, {
         center: new google.maps.LatLng(44.9753855, -93.2762284),
-        zoom: 10
+        zoom: 10,
+        scrollwheel: false
     });
     var iconBase = '/images/icon-marker.png';
     var infowindow = new google.maps.InfoWindow();
