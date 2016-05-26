@@ -82,7 +82,7 @@ var locations = [
         center: new google.maps.LatLng(44.9753855, -93.2762284),
         zoom: 10
     });
-    var iconBase = '/images/mapicon.png';
+    var iconBase = '/images/icon-marker.png';
     var infowindow = new google.maps.InfoWindow();
     var marker, i;
 
