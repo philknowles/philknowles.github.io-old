@@ -349,6 +349,29 @@ svg {
     display:none;
     color:#fff;
     margin:0 auto 60px;
+    h2, h3{
+        text-align:left;
+        padding:0;
+        margin:0;
+        font-size:em(16);
+        font-family:'Arial', Helvetica, san-serif;
+        text-transform:none;
+    }
+    h2 {
+        padding-top:10px;
+    }
+    p, ul {
+        padding:0;  
+        text-align:left;
+        padding:5px 0;
+        margin:0;
+        font-size:em(16);
+        font-family:'Arial', Helvetica, san-serif;
+        text-transform:none;
+    }
+    li {
+        display:block;
+    }
 }
 
 form {
