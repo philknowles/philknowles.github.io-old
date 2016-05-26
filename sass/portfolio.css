@@ -2,22 +2,27 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 27, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 body {
   font-size: 16px;
   background: #121212; }
 
+/* line 32, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-size: 1.5625em;
   text-align: center; }
 
+/* line 39, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 h1 {
   color: #ffc000; }
 
+/* line 43, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 h2, p {
   color: #fff; }
 
+/* line 47, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 p {
   max-width: 954px;
   margin: 0 auto;
@@ -29,52 +34,70 @@ p {
   text-align: center;
   width: 93.75%; }
   @media only screen and (min-width: 768px) {
+    /* line 47, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
     p {
       font-sizet: 1.125em;
       text-align: left;
       width: 100%; } }
 
+/* line 63, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 ul {
   max-width: 986px;
   list-style: none;
   margin: 0 auto;
   padding: 0; }
 
+/* line 69, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 li {
   display: inline;
   padding-right: 5px; }
 
+/* line 75, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
+a svg {
+  transition: all 0.5s ease-out; }
+
+/* line 79, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 a:hover svg, a:focus svg, a:active svg {
   fill: #fff; }
 
+/* line 85, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 svg {
   fill: #404040; }
 
+/* line 93, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 .social-cta, .main-nav {
   background: #000;
   border-bottom: 1px solid #272727;
   overflow: auto; }
+  /* line 97, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
   .social-cta ul, .main-nav ul {
     float: right; }
 
+/* line 102, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 .social-cta {
   padding: 10px 0 6px; }
 
+/* line 108, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 .cta {
   float: right;
   color: #404040; }
+  /* line 111, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
   .cta svg {
     width: 25px;
     height: 25px;
     fill: #404040; }
+  /* line 116, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
   .cta span {
     display: none; }
   @media only screen and (min-width: 768px) {
+    /* line 120, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
     .cta svg {
       display: none; }
+    /* line 123, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
     .cta span {
       display: block; } }
 
+/* line 129, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 .logo {
   position: absolute;
   left: 0;
@@ -86,85 +109,195 @@ svg {
   font-size: 20px;
   font-weight: bold;
   text-align: center; }
+  /* line 140, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
+  .logo.active {
+    position: fixed;
+    z-index: 9999;
+    top: 0px;
+    padding: 0px;
+    border-left: 0px none;
+    border-right: 0px none;
+    font-size: 20px;
+    left: 20px;
+    top: 12px; }
+  /* line 152, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
   .logo a {
     color: #fff; }
   @media only screen and (min-width: 768px) {
+    /* line 129, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
     .logo {
       left: 82px;
       width: 223px;
       padding: 46px 0 43px;
       font-size: 30px;
       border-left: 1px solid #272727;
-      border-right: 1px solid #272727; } }
+      border-right: 1px solid #272727; }
+      /* line 162, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
+      .logo.active {
+        position: fixed;
+        z-index: 9999;
+        top: 0px;
+        padding: 0px;
+        border-left: 0px none;
+        border-right: 0px none;
+        font-size: 25px;
+        left: 0px;
+        top: 7px; } }
 
+/* line 176, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 .main-nav {
   padding: 25px 0 32px; }
+  /* line 178, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
+  .main-nav .hamburger {
+    display: none; }
+  /* line 181, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
+  .main-nav.active {
+    position: fixed;
+    z-index: 9998;
+    width: 100%;
+    min-height: 52px;
+    top: 0px;
+    font-size: 12px;
+    padding: 10px; }
+    /* line 189, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
+    .main-nav.active .hamburger {
+      display: block;
+      color: #fff;
+      float: right;
+      cursor: pointer; }
+    /* line 195, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
+    .main-nav.active .hamburger:before {
+      content: "\2630";
+      font-size: 25px; }
+    /* line 199, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
+    .main-nav.active ul {
+      display: none;
+      margin-top: 45px;
+      text-align: center; }
+  /* line 205, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
   .main-nav ul {
+    display: block;
     float: none;
     width: 100%;
     text-align: right; }
+  /* line 211, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
   .main-nav li {
     margin-left: 4%; }
+  /* line 214, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
   .main-nav a {
     color: #ffc000;
     text-transform: uppercase;
-    font-family: "Oswald", sans-serif; }
+    font-family: "Oswald", sans-serif;
+    transition: all 0.5s ease-out; }
+    /* line 219, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
+    .main-nav a:hover {
+      color: #fff; }
   @media only screen and (min-width: 768px) {
+    /* line 225, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
+    .main-nav.active .hamburger {
+      display: none; }
+    /* line 228, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
+    .main-nav.active ul {
+      display: block;
+      float: right;
+      margin-top: 8px;
+      text-align: right; }
+    /* line 235, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
     .main-nav ul {
+      display: block;
       float: right; }
+    /* line 239, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
     .main-nav li {
       margin-left: 30px; } }
 
+/* line 246, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 .hero-shot img {
   width: 100%; }
 
+/* line 251, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 .cta {
   font-family: "Oswald", sans-serif; }
 
+/* line 258, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 .content-home, .content-work {
   background: #000;
   padding: 3.25em 0 0; }
 
+/* line 263, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 .content-experience, .content-contact {
   padding: 52px 0 109px; }
+  /* line 265, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
   .content-experience ul, .content-contact ul {
     text-align: center; }
+  /* line 268, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
   .content-experience li, .content-contact li {
     padding-left: 15px; }
+  /* line 271, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
   .content-experience img, .content-contact img {
     padding-bottom: 20px; }
+  /* line 274, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
+  .content-experience p, .content-contact p {
+    text-align: center; }
 
+/* line 279, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 .slider {
   margin: 0 auto;
   padding: 61px 0 71px 5%; }
+  /* line 282, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
   .slider div {
-    margin-right: 10px; }
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer; }
+  /* line 287, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
+  .slider a {
+    display: none;
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    background: #ffc000;
+    padding: 25px 0;
+    margin: 0 auto 0 15px;
+    width: 80%;
+    left: 12px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    transition: all display 0.5s; }
+  /* line 302, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
   .slider img {
     border: 10px solid #242424; }
   @media only screen and (min-width: 480px) {
+    /* line 279, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
     .slider {
       padding-left: 0; } }
 
+/* line 309, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 .slick-track {
   margin: 0 auto; }
 
+/* line 313, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 .slick-prev {
   left: 0; }
 
+/* line 316, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 .slick-next {
   right: 0; }
 
+/* line 320, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 .slick-prev, .slick-next {
   background: #000;
   border-radius: 50%;
   z-index: 9999; }
 
+/* line 326, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 .slick-prev:before {
   content: "\25c0"; }
 
+/* line 329, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 .slick-next:before {
   content: "\25BA"; }
 
+/* line 334, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 .resume {
   text-align: center;
   border: 1px solid #ffc000;
@@ -178,14 +311,17 @@ svg {
   text-transform: uppercase;
   cursor: pointer; }
 
+/* line 348, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 .content-resume {
   display: none;
   color: #fff;
   margin: 0 auto 60px; }
 
+/* line 354, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 form {
   padding: 50px 0 0;
   overflow: auto; }
+  /* line 357, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
   form input, form textarea, form select {
     background: #000;
     color: #7d7d7d;
@@ -194,8 +330,10 @@ form {
     font-family: "Oswald", sans-serif;
     font-weight: bold;
     padding: 35px; }
+  /* line 366, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
   form textarea {
     height: 150px; }
+  /* line 369, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
   form input[type=text] {
     float: left;
     background-color: #000;
@@ -205,32 +343,36 @@ form {
     font-weight: bold;
     padding: 35px;
     border: 1px solid #242424; }
+  /* line 379, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
   form input[type=submit] {
     background-color: #000;
     color: #ffc000;
     width: 100%;
     padding: 35px; }
 
+/* line 387, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 .footer-page {
   background: #000;
-  display: flex;
-  justify-content: space-between;
-  padding: 39px 0 44px;
+  padding: 39px 5% 44px;
   overflow: auto; }
+  /* line 391, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
   .footer-page ul {
     margin: 0; }
 
+/* line 398, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 .copyright {
   display: block;
   float: left;
   width: 50%;
   color: #fff; }
 
+/* line 404, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 .footer-cta {
   display: block;
   float: right;
   width: 50%; }
 
+/* line 411, C:/Users/phil.knowles.PHIL-W530/Dropbox/Development/philknowles.github.io/sass/portfolio.scss */
 #map {
   margin: 0 auto;
   width: 100%;
