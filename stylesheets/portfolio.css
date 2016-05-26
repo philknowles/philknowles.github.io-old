@@ -251,55 +251,60 @@ svg {
   }
 }
 
-/* line 246, ../sass/portfolio.scss */
+/* line 245, ../sass/portfolio.scss */
+.hero-shot {
+  max-height: 350px;
+  overflow: hidden;
+}
+/* line 248, ../sass/portfolio.scss */
 .hero-shot img {
   width: 100%;
 }
 
-/* line 251, ../sass/portfolio.scss */
+/* line 253, ../sass/portfolio.scss */
 .cta {
   font-family: "Oswald", sans-serif;
 }
 
-/* line 258, ../sass/portfolio.scss */
+/* line 260, ../sass/portfolio.scss */
 .content-home, .content-work {
   background: #000;
   padding: 3.25em 0 0;
 }
 
-/* line 263, ../sass/portfolio.scss */
+/* line 265, ../sass/portfolio.scss */
 .content-experience, .content-contact {
   padding: 52px 0 109px;
 }
-/* line 265, ../sass/portfolio.scss */
+/* line 267, ../sass/portfolio.scss */
 .content-experience ul, .content-contact ul {
   text-align: center;
 }
-/* line 268, ../sass/portfolio.scss */
+/* line 270, ../sass/portfolio.scss */
 .content-experience li, .content-contact li {
   padding-left: 15px;
 }
-/* line 271, ../sass/portfolio.scss */
+/* line 273, ../sass/portfolio.scss */
 .content-experience img, .content-contact img {
   padding-bottom: 20px;
 }
-/* line 274, ../sass/portfolio.scss */
+/* line 276, ../sass/portfolio.scss */
 .content-experience p, .content-contact p {
   text-align: center;
 }
 
-/* line 279, ../sass/portfolio.scss */
+/* line 281, ../sass/portfolio.scss */
 .slider {
   margin: 0 auto;
   padding: 61px 0 71px 5%;
 }
-/* line 282, ../sass/portfolio.scss */
+/* line 284, ../sass/portfolio.scss */
 .slider div {
   margin-right: 10px;
   position: relative;
   cursor: pointer;
 }
-/* line 287, ../sass/portfolio.scss */
+/* line 289, ../sass/portfolio.scss */
 .slider a {
   display: none;
   position: absolute;
@@ -315,50 +320,50 @@ svg {
   font-family: "Oswald", sans-serif;
   transition: all display 0.5s;
 }
-/* line 302, ../sass/portfolio.scss */
+/* line 304, ../sass/portfolio.scss */
 .slider img {
   border: 10px solid #242424;
 }
 @media only screen and (min-width: 480px) {
-  /* line 279, ../sass/portfolio.scss */
+  /* line 281, ../sass/portfolio.scss */
   .slider {
     padding-left: 0;
   }
 }
 
-/* line 309, ../sass/portfolio.scss */
+/* line 311, ../sass/portfolio.scss */
 .slick-track {
   margin: 0 auto;
 }
 
-/* line 313, ../sass/portfolio.scss */
+/* line 315, ../sass/portfolio.scss */
 .slick-prev {
   left: 0;
 }
 
-/* line 316, ../sass/portfolio.scss */
+/* line 318, ../sass/portfolio.scss */
 .slick-next {
   right: 0;
 }
 
-/* line 320, ../sass/portfolio.scss */
+/* line 322, ../sass/portfolio.scss */
 .slick-prev, .slick-next {
   background: #000;
   border-radius: 50%;
   z-index: 9999;
 }
 
-/* line 326, ../sass/portfolio.scss */
+/* line 328, ../sass/portfolio.scss */
 .slick-prev:before {
   content: "\25c0";
 }
 
-/* line 329, ../sass/portfolio.scss */
+/* line 331, ../sass/portfolio.scss */
 .slick-next:before {
   content: "\25BA";
 }
 
-/* line 334, ../sass/portfolio.scss */
+/* line 336, ../sass/portfolio.scss */
 .resume {
   text-align: center;
   border: 1px solid #ffc000;
@@ -373,13 +378,13 @@ svg {
   cursor: pointer;
 }
 
-/* line 348, ../sass/portfolio.scss */
+/* line 350, ../sass/portfolio.scss */
 .content-resume {
   display: none;
   color: #fff;
   margin: 0 auto 60px;
 }
-/* line 352, ../sass/portfolio.scss */
+/* line 354, ../sass/portfolio.scss */
 .content-resume h2, .content-resume h3 {
   text-align: left;
   padding: 0;
@@ -388,11 +393,11 @@ svg {
   font-family: 'Arial', Helvetica, san-serif;
   text-transform: none;
 }
-/* line 360, ../sass/portfolio.scss */
+/* line 362, ../sass/portfolio.scss */
 .content-resume h2 {
   padding-top: 10px;
 }
-/* line 363, ../sass/portfolio.scss */
+/* line 365, ../sass/portfolio.scss */
 .content-resume p, .content-resume ul {
   padding: 0;
   text-align: left;
@@ -402,17 +407,17 @@ svg {
   font-family: 'Arial', Helvetica, san-serif;
   text-transform: none;
 }
-/* line 372, ../sass/portfolio.scss */
+/* line 374, ../sass/portfolio.scss */
 .content-resume li {
   display: block;
 }
 
-/* line 377, ../sass/portfolio.scss */
+/* line 379, ../sass/portfolio.scss */
 form {
   padding: 50px 0 0;
   overflow: auto;
 }
-/* line 380, ../sass/portfolio.scss */
+/* line 382, ../sass/portfolio.scss */
 form input, form textarea, form select {
   background: #000;
   color: #7d7d7d;
@@ -422,11 +427,11 @@ form input, form textarea, form select {
   font-weight: bold;
   padding: 35px;
 }
-/* line 389, ../sass/portfolio.scss */
+/* line 391, ../sass/portfolio.scss */
 form textarea {
   height: 150px;
 }
-/* line 392, ../sass/portfolio.scss */
+/* line 394, ../sass/portfolio.scss */
 form input[type=text] {
   float: left;
   background-color: #000;
@@ -437,7 +442,7 @@ form input[type=text] {
   padding: 35px;
   border: 1px solid #242424;
 }
-/* line 402, ../sass/portfolio.scss */
+/* line 404, ../sass/portfolio.scss */
 form input[type=submit] {
   background-color: #000;
   color: #ffc000;
@@ -445,18 +450,18 @@ form input[type=submit] {
   padding: 35px;
 }
 
-/* line 410, ../sass/portfolio.scss */
+/* line 412, ../sass/portfolio.scss */
 .footer-page {
   background: #000;
   padding: 39px 5% 44px;
   overflow: auto;
 }
-/* line 414, ../sass/portfolio.scss */
+/* line 416, ../sass/portfolio.scss */
 .footer-page ul {
   margin: 0;
 }
 
-/* line 421, ../sass/portfolio.scss */
+/* line 423, ../sass/portfolio.scss */
 .copyright {
   display: block;
   float: left;
@@ -464,14 +469,14 @@ form input[type=submit] {
   color: #fff;
 }
 
-/* line 427, ../sass/portfolio.scss */
+/* line 429, ../sass/portfolio.scss */
 .footer-cta {
   display: block;
   float: right;
   width: 50%;
 }
 
-/* line 434, ../sass/portfolio.scss */
+/* line 436, ../sass/portfolio.scss */
 #map {
   margin: 0 auto;
   width: 100%;
