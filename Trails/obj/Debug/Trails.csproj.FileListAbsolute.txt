@@ -1,6 +1,0 @@
-C:\Users\phil.knowles.PHIL-W530\Dropbox\Development\trails\trails\Trails\bin\Trails.dll.config
-C:\Users\phil.knowles.PHIL-W530\Dropbox\Development\trails\trails\Trails\bin\Trails.dll
-C:\Users\phil.knowles.PHIL-W530\Dropbox\Development\trails\trails\Trails\bin\Trails.pdb
-C:\Users\phil.knowles.PHIL-W530\Dropbox\Development\trails\trails\Trails\obj\Debug\Trails.csprojResolveAssemblyReference.cache
-C:\Users\phil.knowles.PHIL-W530\Dropbox\Development\trails\trails\Trails\obj\Debug\Trails.dll
-C:\Users\phil.knowles.PHIL-W530\Dropbox\Development\trails\trails\Trails\obj\Debug\Trails.pdb
