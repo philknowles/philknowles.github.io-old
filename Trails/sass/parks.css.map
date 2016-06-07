@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "parks.css",
+  "sources": [
+    "parks.scss"
+  ],
+  "sourcesContent": [],
+  "mappings": ";AAAA,IAAI,CAAC;EACD,MAAM,EAAC,MAAO;EACd,KAAK,EAAC,IAAK;EACX,MAAM,EAAC,KAAM,GAHX",
+  "names": []
+}
