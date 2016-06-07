@@ -75,7 +75,8 @@ function initMap() {
 var locations = [
   ['<b>Thomson Reuters - FindLaw</b><br>Front End Developer<br>610 Opperman Drive<br>Eagan, MN 55123<br>2000 - 2014<br>', 44.8246841, -93.1146937, 1],
   ['<b>Three Deep, Inc.</b><br>Senior Web Developer<br>289 5th St.<br>St. Paul, MN 55101<br>2014 - 2016', 44.9505788, -93.0878177, 2],
-  ['<b>The Creative Group</b><br>Front End Consultant<br>Nicollet Mall<br/>Suite 2700<br/>Minneapolis, MN<br>2016 - Present', 44.9753855, -93.2762284, 2]
+  ['<b>The Creative Group</b><br>Front End Consultant<br>Nicollet Mall<br/>Suite 2700<br/>Minneapolis, MN<br>2016 - Present', 44.9753855, -93.2762284, 2],
+  ['<b>Collegis Education</b><br>The Creative Group<br><br/>8300 Norman Center Drive<br/>#400<br/>Collegis Education<br>2016 - Present', 44.8526801,-93.3552383, 2]
 ];
     var mapDiv = document.getElementById('map');
     var map = new google.maps.Map(mapDiv, {
